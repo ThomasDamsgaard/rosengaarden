@@ -17,4 +17,13 @@ Route::get('/', function () {
 
 Auth::routes();
 
+//User routes
 Route::get('/home', 'HomeController@index')->name('home');
+
+//Blog routes
+Route::get('/blog', 'Blog\BlogController@index');
+Route::get('/blog/create', 'Blog\BlogController@create')->middleware('auth');
+Route::get('/blog/{slug?}', 'Blog\BlogController@show')->name('show');
+Route::resource('blog', 'Blog\BlogController')
+  ->except(['index', 'show'])
+  ->middleware('auth');
