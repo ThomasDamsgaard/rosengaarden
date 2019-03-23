@@ -22,7 +22,6 @@
               <label for="body" class="label">Tekst *</label>
               <textarea id="body" class="form-control" name="body"></textarea>
             </div>
-
             <button class="btn btn-secondary">Udgiv</button>
           </form>
 

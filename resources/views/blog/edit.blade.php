@@ -18,11 +18,14 @@
               <input class="form-control" type="text" id="subtitle" name="subtitle" value="{{ $post->subtitle }}">
             </div>
 
-            <div id="toolbar-container"></div>
+            {{-- <div id="toolbar-container"></div>
             <div class="form-group">
               <label for="body" class="label">Tekst *</label>
               <textarea id="body" class="form-control" name="body">{{ $post->body }}</textarea>
-            </div>
+            </div> --}}
+
+            <input id="x" type="hidden" name="body" value="{{ $post->body }}">
+            <trix-editor input="x"></trix-editor>
 
             <button class="btn btn-secondary">Ændre</button>
           </form>
