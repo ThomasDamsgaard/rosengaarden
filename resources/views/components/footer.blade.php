@@ -1,4 +1,4 @@
-<nav id="footer" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+<nav id="footer" class="navbar navbar-expand-lg fixed-bottom" style="background-color: #58585A;">
   <div class="container justify-content-center">
     <div class="row">
       <div class="col-12 text-center">
