@@ -15,7 +15,6 @@
           Skrevet {{ $slug->created_at->format('F Y') }}
         </p>
       </div>
-
       <p>
         {!! $slug->body !!}
       </p>

@@ -12,35 +12,14 @@
 */
 
 //Guest routes
-Route::get('/', function () {
-    return view('welcome');
-})->name('frontpage');
-
-Route::get('/symptomer-og-behandling', function () {
-    return view('guest.chiropractor.symptoms_and_treatment');
-})->name('symptoms');
-
-Route::get('/boernekiropraktik', function () {
-    return view('guest.chiropractor.children');
-})->name('children');
-
-Route::get('/fysioterapi-og-massage', function () {
-    return view('guest.physiotherapy');
-})->name('physiotherapy');
-
-Route::get('/kontakt', function () {
-    return view('guest.contact.contact_info');
-})->name('contact');
-
-Route::get('/hvem-er-vi', function () {
-    return view('guest.contact.who_are_we');
-})->name('who');
-
+Route::get('/', 'Guest\GuestController@frontpage')->name('frontpage');
+Route::get('/symptomer-og-behandling', 'Guest\GuestController@symptoms')->name('symptoms');
+Route::get('/boernekiropraktik', 'Guest\GuestController@children')->name('children');
+Route::get('/fysioterapi-og-massage', 'Guest\GuestController@physiotherapy')->name('physiotherapy');
+Route::get('/kontakt', 'Guest\GuestController@contact')->name('contact');
+Route::get('/hvem-er-vi', 'Guest\GuestController@who')->name('who');
+Route::get('/links', 'Guest\GuestController@links')->name('links');
 Route::get('/blog', 'Blog\BlogController@index')->name('blog');
-
-Route::get('/links', function () {
-    return view('guest.links');
-})->name('links');
 
 //Auth routes
 Auth::routes();

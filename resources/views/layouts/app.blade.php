@@ -20,7 +20,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style media="screen">
         html, body {
-            background-color: #fff;
+            background-color: #F5F8FA;
             color: #636b6f;
             font-family: 'Raleway', sans-serif;
             font-weight: 200;
@@ -28,43 +28,27 @@
             margin: 0;
         }
 
-        .full-height {
-            height: 90vh;
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
-
-        .content {
-            text-align: center;
-        }
-
-        .title {
-            font-size: 84px;
+        #footer {
+          font-size: 0.6rem;
+          color: #F5F8FA;
         }
     </style>
+    @yield('css')
 </head>
 <body>
     <div id="app">
+      <div class="">
+        hallo
+      </div>
 
         @include('components.nav')
 
         <main class="py-4">
             @yield('content')
         </main>
+
+        @include('components.footer')
+
     </div>
 
     @yield('javascript')

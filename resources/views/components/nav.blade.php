@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+<nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
         {{-- <a class="navbar-brand" href="{{ url('/') }}">
             {{ config('app.name', 'Laravel') }}
@@ -30,6 +30,12 @@
               <li class="nav-item">
                   <a class="nav-link" href="{{ route('physiotherapy') }}">Fysioterapi</a>
               </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{{ route('blog') }}">Blog</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{{ route('links') }}">Links</a>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="contact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Kontaktinfo
@@ -43,12 +49,6 @@
                     Hvem er vi
                   </a>
                 </div>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="{{ route('blog') }}">Blog</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="{{ route('links') }}">Links</a>
               </li>
             </ul>
             <!-- Left Side Of Navbar -->
