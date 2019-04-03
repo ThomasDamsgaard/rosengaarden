@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Blog;
 use Purifier;
+use Carbon\Carbon;
 
 class BlogController extends Controller
 {
@@ -42,10 +43,10 @@ class BlogController extends Controller
         $post = new Blog;
 
         Blog::create([
-      'title' => request('title'),
-      'subtitle' => request('subtitle'),
-      'body' => Purifier::clean(request('body'))
-      ]);
+          'title' => request('title'),
+          'subtitle' => request('subtitle'),
+          'body' => request('body')
+        ]);
 
         return redirect('/');
     }
@@ -58,7 +59,6 @@ class BlogController extends Controller
      */
     public function show(Blog $slug)
     {
-        // return $slug;
         return view('blog.show', compact('slug'));
     }
 
@@ -85,10 +85,10 @@ class BlogController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-      'title' => 'required',
-      'subtitle' => 'required',
-      'body' => 'required'
-    ]);
+          'title' => 'required',
+          'subtitle' => 'required',
+          'body' => 'required'
+        ]);
 
         $post = Blog::find($id);
         $post->title = $request->get('title');
