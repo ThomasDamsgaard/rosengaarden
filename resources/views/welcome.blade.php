@@ -11,17 +11,62 @@
     #sticky-footer {
       flex-shrink: none;
     }
+
+    .masthead {
+      height: 100vh;
+      min-height: 500px;
+      /* background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080'); */
+      background: rgb(230,231,225);
+background: -moz-linear-gradient(top, rgba(230,231,225,1) 0%, rgba(238,239,234,1) 100%);
+background: -webkit-linear-gradient(top, rgba(230,231,225,1) 0%,rgba(238,239,234,1) 100%);
+background: linear-gradient(to bottom, rgba(230,231,225,1) 0%,rgba(238,239,234,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e7e1', endColorstr='#eeefea',GradientType=0 );
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .btn::after {
+      background: #F5F8FA;
+      content: '';
+      height: 100vh;
+      left: 50%;
+      position: absolute;
+      top: 100%;
+      width: 1.5px;
+    }
+
+    .btn:hover:after {
+      background: rgb(0,0,0,0);
+    }
+
+    .fixed-top.scrolled {
+      background-color: #fff !important;
+      transition: background-color 600ms linear;
+    }
   </style>
 
 @endsection
 
 @section('content')
-<div class="container">
+  <header class="masthead mb-3">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+          <h4 class="font-weight-light" style="margin: 0px;">Rosengårdens</h4>
+          <hr style="background-color: red; height: 1px;">
+          <h1>Kiropraktik</h1>
+        <p class="lead">Velkommen hos kiropraktorer og fysioterapeuter ved Rosengårdscenteret</p>
+        <a href="#content" class="btn btn-light" role="button">Læs mere</a href="#">
+      </div>
+    </div>
+  </div>
+</header>
+<div class="container" id="content">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-8 mb-3">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mb-3">
         <div class="card">
           <div class="card-header">
             Seneste blogindlæg
@@ -69,5 +114,17 @@
 @endsection
 
 @section('javascript')
-
+  <script type="text/javascript">
+  (function() {
+    'use strict'
+    window.onscroll = function() {
+      const navbar = document.querySelector('.fixed-top');
+      if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    }
+  })();
+  </script>
 @endsection

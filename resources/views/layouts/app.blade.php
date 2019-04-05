@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/animated-dropdown.css') }}" rel="stylesheet">
     <style media="screen">
         html, body {
             background-color: #F5F8FA;
@@ -30,20 +31,19 @@
 
         #footer {
           font-size: 0.6rem;
-          color: #F5F8FA;
         }
     </style>
     @yield('css')
 </head>
 <body>
     <div id="app">
-      <div class="">
+      {{-- <div class="">
         <img src="{{ asset('img/logo.png')}}" alt="" class="img-fluid rounded mx-auto d-block" style="width: 250px; height: 160px;">
-      </div>
+      </div> --}}
 
         @include('components.nav')
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
 

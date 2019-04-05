@@ -1,7 +1,12 @@
-<nav class="navbar navbar-expand-md navbar-light">
+@if (Route::is('frontpage'))
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+@else
+  <nav class="navbar navbar-expand-md navbar-light">
+@endif
+
     <div class="container">
         {{-- <a class="navbar-brand" href="{{ url('/') }}">
-            {{ config('app.name', 'Laravel') }}
+          <img src="{{ asset('img/logo.png')}}" alt="" class="img-fluid rounded mx-auto d-block" style="width: 125px; height: 62px;">
         </a> --}}
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -17,7 +22,7 @@
                 <a class="nav-link dropdown-toggle" href="#" id="chiropractor" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Kiropraktik
                 </a>
-                <div class="dropdown-menu" aria-labelledby="chiropractor">
+                <div class="dropdown-menu animate slideIn" aria-labelledby="chiropractor">
                   <a class="dropdown-item" href="{{ route('symptoms')}}">
                     Symptomer og behandling
                   </a>
@@ -40,7 +45,7 @@
                 <a class="nav-link dropdown-toggle" href="#" id="contact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Kontaktinfo
                 </a>
-                <div class="dropdown-menu" aria-labelledby="contact">
+                <div class="dropdown-menu animate slideIn" aria-labelledby="contact">
                   <a class="dropdown-item" href="{{ route('contact')}}">
                     Kontakt
                   </a>
