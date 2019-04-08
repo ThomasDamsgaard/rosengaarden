@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container mt-3">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-8 mb-5">
           <form method="post" action="/blog">
             @csrf
 
@@ -44,7 +44,7 @@
       "insertdatetime media nonbreaking save table contextmenu directionality",
       "emoticons template paste textcolor colorpicker textpattern autoresize"
     ],
-    toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image media",
+    toolbar: "insertfile undo redo | styleselect | italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image media",
     relative_urls: false,
     file_browser_callback : function(field_name, url, type, win) {
       var x = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;

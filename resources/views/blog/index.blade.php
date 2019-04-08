@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('pageTitle', 'Hvem er vi | Rosengårdens Kiropraktik')
+@section('pageTitle', 'Blog | Rosengårdens Kiropraktik')
 
 @section('css')
   <style media="screen">

@@ -14,11 +14,13 @@
           {{ $slug->subtitle }}
         </h5>
         <p class="text-muted" style="font-size: 0.8em;">
-          Skrevet {{ $slug->created_at->format('F Y') }}
+          <strong>Skrevet {{ $slug->created_at->format('F Y') }}</strong>
         </p>
       </div>
       <p>
-        {!! $slug->body !!}
+        @php
+          echo $slug->body
+        @endphp
       </p>
     </div>
     <hr>
