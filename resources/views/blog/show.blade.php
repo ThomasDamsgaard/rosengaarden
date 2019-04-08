@@ -3,10 +3,10 @@
 @section('pageTitle', e($slug->title) . ' | Rosengårdens Kiropraktik')
 
 @section('content')
-<div class="container">
+<div class="container mt-md-5 mt-3">
   <div class="row justify-content-center">
-    <div class="col-md-8">
-      <div class="text-center mb-5">
+    <div class="col-md-8 offset-md-2">
+      <div class="text-center">
         <h2>
           {{ $slug->title }}
         </h2>
