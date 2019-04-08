@@ -1,9 +1,11 @@
 @extends('layouts.app')
 
+@section('pageTitle', e($slug->title) . ' | Rosengårdens Kiropraktik')
+
 @section('content')
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-md-8 offset-md-2">
+    <div class="col-md-8">
       <div class="text-center mb-5">
         <h2>
           {{ $slug->title }}

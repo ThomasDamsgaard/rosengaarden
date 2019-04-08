@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('pageTitle', 'Rosengårdens Kiropraktik | Forside')
+@section('pageTitle', 'Forside | Rosengårdens Kiropraktik')
 
 @section('css')
   <style media="screen">
@@ -17,13 +17,13 @@
       min-height: 500px;
       /* background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080'); */
       background: rgb(230,231,225);
-background: -moz-linear-gradient(top, rgba(230,231,225,1) 0%, rgba(238,239,234,1) 100%);
-background: -webkit-linear-gradient(top, rgba(230,231,225,1) 0%,rgba(238,239,234,1) 100%);
-background: linear-gradient(to bottom, rgba(230,231,225,1) 0%,rgba(238,239,234,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e7e1', endColorstr='#eeefea',GradientType=0 );
-      background-size: cover;
+      background: -moz-linear-gradient(top, rgba(230,231,225,1) 0%, rgba(238,239,234,1) 100%);
+      background: -webkit-linear-gradient(top, rgba(230,231,225,1) 0%,rgba(238,239,234,1) 100%);
+      background: linear-gradient(to bottom, rgba(230,231,225,1) 0%,rgba(238,239,234,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e7e1', endColorstr='#eeefea',GradientType=0 );
+      /* background-size: cover;
       background-position: center;
-      background-repeat: no-repeat;
+      background-repeat: no-repeat; */
     }
     .btn::after {
       background: #F5F8FA;
@@ -52,9 +52,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e7e1', end
   <div class="container h-100">
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
+        <div class="col-sm-4 offset-sm-4">
           <h4 class="font-weight-light" style="margin: 0px;">Rosengårdens</h4>
-          <hr style="background-color: red; height: 1px;">
+          <hr style="background-color: #C75B3A; height: 1px; margin: 0.25rem;">
           <h1>Kiropraktik</h1>
+        </div>
+
         <p class="lead">Velkommen hos kiropraktorer og fysioterapeuter ved Rosengårdscenteret</p>
         <a href="#content" class="btn btn-light" role="button">Læs mere</a href="#">
       </div>
@@ -64,6 +67,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e7e1', end
 <div class="container" id="content">
     <div class="row">
       <div class="col-md-8 mb-3">
+        <p class="lead">Overskrift</p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </div>
       <div class="col-md-4 mb-3">
