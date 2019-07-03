@@ -6,15 +6,17 @@
   <div class="container mt-5">
     <div class="row">
       <!-- Team Member 1 -->
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title mb-0">Jens Jensen</h5>
-            <div class="card-text text-black-50">Kiropraktor</div>
-          </div>
-        </div>
-      </div>
+      @component('components.card')
+        @slot('img')
+          https://source.unsplash.com/TMgQMXoglsM/500x350
+        @endslot
+        @slot('name')
+          Mathilde Christensen
+        @endslot
+        @slot('profession')
+          Kiropraktor
+        @endslot
+      @endcomponent
       <!-- Team Member 2 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
@@ -48,4 +50,10 @@
     </div>
     <!-- /.row -->
   </div>
+
+  <!-- Modal -->
+  @component('components/modal')
+
+  @endcomponent
+
 @endsection

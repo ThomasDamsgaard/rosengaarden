@@ -8,10 +8,6 @@
       flex: 1 0 auto;
     }
 
-    #sticky-footer {
-      flex-shrink: none;
-    }
-
     .masthead {
       height: 100vh;
       min-height: 500px;
@@ -25,6 +21,7 @@
       background-position: center;
       background-repeat: no-repeat; */
     }
+
     .btn::after {
       background: #F5F8FA;
       content: '';
@@ -43,6 +40,20 @@
       background-color: #fff !important;
       transition: background-color 600ms linear;
     }
+
+    .fixed-bottom {
+      opacity: 0;
+    }
+
+    .fixed-bottom.scrolled {
+      opacity: 1;
+      transition: opacity 600ms linear;
+    }
+
+    .navbar-light .navbar-toggler {
+      border-color: transparent;
+    }
+
   </style>
 
 @endsection
@@ -59,18 +70,44 @@
         </div>
 
         <p class="lead">Velkommen hos kiropraktorer og fysioterapeuter ved Rosengårdscenteret</p>
-        <a href="#content" class="btn btn-light" role="button">Læs mere</a href="#">
+        <a href="#content" class="btn btn-light" role="button">Læs mere</a>
       </div>
     </div>
   </div>
 </header>
 <div class="container" id="content">
-    <div class="row">
-      <div class="col-md-8 mb-3">
-        <p class="lead">Overskrift</p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <div class="row mb-md-5 mb-3">
+    <div class="col-md-12">
+      <p class="lead">Vores mål er at hjælpe dig med at optimere dit helbred og velbefindende.</p>
+      <p>Som kiropraktorer og fysioterapeuter er vi specialister i kroppens bevægeapparat og uddannede til at få led og muskler til at fungere, bedst muligt. Vi er et tværfagligt team, som er parat til at hjælpe dig, uanset om problemet allerede er opstået og du har behov for behandling, eller blot ønsker en undersøgelse eller gode råd og vejledning.</p>
+      <p>Du behøver ingen henvisning ved kiropraktorbesøg, vi har overenskomst med sygesikringen og der ydes tilskud fra Sygeforsikringen Danmark.</p>
+      <p style="margin-bottom: 0px;">Vi tilbyder desuden røntgenundersøgelser og stabilitetstræning.</p>
+    </div>
+  </div>
+  <hr>
+    <div class="row mt-md-5 mt-3">
+      <div class="col-md-4 mb-3">
+        <p class="lead" style="margin-bottom: 0px;">Telefontider:</p>
+        <ul style="list-style: none; padding: 0;">
+          <li>Mandag 8.00 - 18.00</li>
+          <li>Tirsdag 7.30 - 18.00</li>
+          <li>Onsdag 7.30 - 14.00</li>
+          <li>Torsdag 8.00 - 18.00</li>
+          <li>Fredag 7.30 - 15.00</li>
+        </ul>
+        <p>Med forbehold for ændringer ved kurser, under ferier og lignende.</p>
       </div>
       <div class="col-md-4 mb-3">
+        <p class="lead" style="margin-bottom: 0px;">Kiropraktorvagt</p>
+        <p>
+          I weekender og helligdage kan vagthavende kiropraktor i region syd kontaktes på følgende telefon nr:<br>
+          Vagtkreds Fyn: 7020 3642<br>
+          Vagtkreds Jylland: 7020 3634<br>
+          Der er telefontid mellem kl 9 og 10.<br>
+          Mere info på regionens hjemmeside via følgende <a href="https://www.regionsyddanmark.dk/wm362773">link</a>.
+        </p>
+      </div>
+      <div class="col-md-4 mb-5">
         <div class="card">
           <div class="card-header">
             Seneste blogindlæg
@@ -123,10 +160,13 @@
     'use strict'
     window.onscroll = function() {
       const navbar = document.querySelector('.fixed-top');
+      const footer = document.querySelector('.fixed-bottom');
       if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
         navbar.classList.add('scrolled');
+        footer.classList.add('scrolled')
       } else {
         navbar.classList.remove('scrolled');
+        footer.classList.remove('scrolled');
       }
     }
   })();

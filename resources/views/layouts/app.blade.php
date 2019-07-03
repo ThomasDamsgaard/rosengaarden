@@ -37,9 +37,6 @@
 </head>
 <body>
     <div id="app">
-      {{-- <div class="">
-        <img src="{{ asset('img/logo.png')}}" alt="" class="img-fluid rounded mx-auto d-block" style="width: 250px; height: 160px;">
-      </div> --}}
 
         @include('components.nav')
 
