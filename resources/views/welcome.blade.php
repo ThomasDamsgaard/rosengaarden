@@ -77,7 +77,7 @@
 </header>
 <div class="container" id="content">
   <div class="row mb-md-5 mb-3">
-    <div class="col-md-12">
+    <div class="col-md-8 offset-md-2">
       <p class="lead">Vores mål er at hjælpe dig med at optimere dit helbred og velbefindende.</p>
       <p>Som kiropraktorer og fysioterapeuter er vi specialister i kroppens bevægeapparat og uddannede til at få led og muskler til at fungere, bedst muligt. Vi er et tværfagligt team, som er parat til at hjælpe dig, uanset om problemet allerede er opstået og du har behov for behandling, eller blot ønsker en undersøgelse eller gode råd og vejledning.</p>
       <p>Du behøver ingen henvisning ved kiropraktorbesøg, vi har overenskomst med sygesikringen og der ydes tilskud fra Sygeforsikringen Danmark.</p>
