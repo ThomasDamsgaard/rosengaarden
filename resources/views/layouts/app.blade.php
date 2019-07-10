@@ -36,7 +36,7 @@
     @yield('css')
 </head>
 <body>
-    <div class="fixed-top" style="height: 2px; background-color: #C75B3A">  
+    <div style="height: 2px; background-color: #C75B3A">  
     </div>
     <div id="app">
 
