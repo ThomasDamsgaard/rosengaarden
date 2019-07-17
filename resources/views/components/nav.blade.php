@@ -3,7 +3,7 @@
 @else
   <nav class="navbar navbar-expand-md navbar-light">
 @endif
-
+  <div class="mx-auto d-sm-flex d-block flex-md-nowrap">
     <div class="container">
         {{-- <a class="navbar-brand" href="{{ url('/') }}">
           <img src="{{ asset('img/logo.png')}}" alt="" class="img-fluid rounded mx-auto d-block" style="width: 125px; height: 62px;">
@@ -30,30 +30,45 @@
                   <a class="dropdown-item" href="{{ route('children')}}">
                     Børnekiropraktik
                   </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="{{ route('physiotherapy')}}">
+                    Fysioterapi og massage
+                  </a>
+                </div>
+              </li>
+              {{-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="info" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Info
+                </a>
+                <div class="dropdown-menu animate slideIn" aria-labelledby="info">
+                  <a class="dropdown-item" href="{{ route('links') }}">
+                    Links
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="{{ route('not.showing.up') }}">
+                    Udeblivelse
+                  </a>
+                </div>
+              </li> --}}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="contact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Kontakt
+                </a>
+                <div class="dropdown-menu animate slideIn" aria-labelledby="contact">
+                  <a class="dropdown-item" href="{{ route('contact') }}">
+                    Kontaktinformation
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="{{ route('who') }}">
+                    Personale
+                  </a>
                 </div>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="{{ route('physiotherapy') }}">Fysioterapi</a>
+                  <a class="nav-link" href="{{ route('info') }}">Info</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="{{ route('blog') }}">Blog</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="{{ route('links') }}">Links</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="contact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Kontaktinfo
-                </a>
-                <div class="dropdown-menu animate slideIn" aria-labelledby="contact">
-                  <a class="dropdown-item" href="{{ route('contact')}}">
-                    Kontakt
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="{{ route('who')}}">
-                    Hvem er vi
-                  </a>
-                </div>
               </li>
             </ul>
             <!-- Left Side Of Navbar -->
@@ -92,4 +107,5 @@
             </ul>
         </div>
     </div>
+  </div>
 </nav>

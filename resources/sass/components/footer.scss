@@ -1,0 +1,12 @@
+#footer {
+  font-size: 0.6rem;
+}
+
+.fixed-bottom {
+  opacity: 0;
+}
+
+.fixed-bottom.scrolled {
+  opacity: 1;
+  transition: opacity 600ms linear;
+}

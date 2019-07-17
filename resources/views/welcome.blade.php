@@ -2,62 +2,6 @@
 
 @section('pageTitle', 'Forside | Rosengårdens Kiropraktik')
 
-@section('css')
-  <style media="screen">
-    #app {
-      flex: 1 0 auto;
-    }
-
-    .masthead {
-      height: 100vh;
-      min-height: 500px;
-      /* background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080'); */
-      background: rgb(230,231,225);
-      background: -moz-linear-gradient(top, rgba(230,231,225,1) 0%, rgba(238,239,234,1) 100%);
-      background: -webkit-linear-gradient(top, rgba(230,231,225,1) 0%,rgba(238,239,234,1) 100%);
-      background: linear-gradient(to bottom, rgba(230,231,225,1) 0%,rgba(238,239,234,1) 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e7e1', endColorstr='#eeefea',GradientType=0 );
-      /* background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat; */
-    }
-
-    .btn::after {
-      background: #F5F8FA;
-      content: '';
-      height: 100vh;
-      left: 50%;
-      position: absolute;
-      top: 100%;
-      width: 1.5px;
-    }
-
-    .btn:hover:after {
-      background: rgb(0,0,0,0);
-    }
-
-    .fixed-top.scrolled {
-      background-color: #fff !important;
-      transition: background-color 600ms linear;
-    }
-
-    .fixed-bottom {
-      opacity: 0;
-    }
-
-    .fixed-bottom.scrolled {
-      opacity: 1;
-      transition: opacity 600ms linear;
-    }
-
-    .navbar-light .navbar-toggler {
-      border-color: transparent;
-    }
-
-  </style>
-
-@endsection
-
 @section('content')
   <header class="masthead mb-3">
   <div class="container h-100">
@@ -70,7 +14,7 @@
         </div>
 
         <p class="lead">Velkommen hos kiropraktorer og fysioterapeuter ved Rosengårdscenteret</p>
-        <a href="#content" class="btn btn-light" role="button">Læs mere</a>
+        <a href="#content" class=" frontpage-btn btn btn-light" role="button">Læs mere</a>
       </div>
     </div>
   </div>
@@ -78,13 +22,30 @@
 <div class="container" id="content">
   <div class="row mb-md-5 mb-3">
     <div class="col-md-8 offset-md-2">
-      <p class="lead">Vores mål er at hjælpe dig med at optimere dit helbred og velbefindende.</p>
-      <p>Som kiropraktorer og fysioterapeuter er vi specialister i kroppens bevægeapparat og uddannede til at få led og muskler til at fungere, bedst muligt. Vi er et tværfagligt team, som er parat til at hjælpe dig, uanset om problemet allerede er opstået og du har behov for behandling, eller blot ønsker en undersøgelse eller gode råd og vejledning.</p>
-      <p>Du behøver ingen henvisning ved kiropraktorbesøg, vi har overenskomst med sygesikringen og der ydes tilskud fra Sygeforsikringen Danmark.</p>
-      <p style="margin-bottom: 0px;">Vi tilbyder desuden røntgenundersøgelser og stabilitetstræning.</p>
+      <p class="lead text-center">
+        Vores mål er at hjælpe dig med at optimere dit helbred og velbefindende.
+      </p>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <h6><b>Specialister i bevægeapparatet</b></h6>
+          <p>Som kiropraktorer og fysioterapeuter er vi specialister i kroppens bevægeapparat og uddannede til at få led og muskler til at fungere, bedst muligt.</p>
+          <h6><b>Tværfagligt team</b></h6>
+          <p> Vi er et tværfagligt team, som er parat til at hjælpe dig, uanset om problemet allerede er opstået og du har behov for behandling, eller blot ønsker en undersøgelse eller gode råd og vejledning.</p>
+        </div>
+        <div class="col-md-6">
+          <h6><b>Henvisning og sygesikring</b></h6>
+          <p>Du behøver ingen henvisning fra din egen læge ved kiropraktorbesøg, vi har overenskomst med sygesikringen og der ydes tilskud fra Sygeforsikringen Danmark.</p>
+          <h6><b>Kiropraktorvagt</b></h6>
+          <p>
+            I weekender og helligdage er der mulighed for at kontakte vagthavende kiropraktor i Region Syd for behandling.<br>
+            Mere info på regionens <a href="https://www.regionsyddanmark.dk/wm362773">hjemmeside</a>.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
-  <hr>
+  {{-- <hr>
     <div class="row mt-md-5 mt-3">
       <div class="col-md-4 mb-3">
         <p class="lead" style="margin-bottom: 0px;">Telefontider:</p>
@@ -129,28 +90,8 @@
           </div>
         </div>
       </div>
-      {{-- <div class="flex-center position-ref full-height">
-          @if (Route::has('login'))
-              <div class="top-right links">
-                  @auth
-                      <a href="{{ url('/home') }}">Home</a>
-                  @else
-                      <a href="{{ route('login') }}">Login</a>
 
-                      @if (Route::has('register'))
-                          <a href="{{ route('register') }}">Register</a>
-                      @endif
-                  @endauth
-              </div>
-          @endif
-
-          <div class="content">
-              <div class="title">
-                  Laravel
-              </div>
-          </div>
-      </div> --}}
-    </div>
+    </div> --}}
 </div>
 @endsection
 

@@ -18,7 +18,9 @@ Route::get('/boernekiropraktik', 'Guest\GuestController@children')->name('childr
 Route::get('/fysioterapi-og-massage', 'Guest\GuestController@physiotherapy')->name('physiotherapy');
 Route::get('/kontakt', 'Guest\GuestController@contact')->name('contact');
 Route::get('/hvem-er-vi', 'Guest\GuestController@who')->name('who');
-Route::get('/links', 'Guest\GuestController@links')->name('links');
+Route::get('/information', 'Guest\GuestController@info')->name('info');
+// Route::get('/links', 'Guest\GuestController@links')->name('links');
+// Route::get('/udeblivelse', 'Guest\GuestController@notShowingUp')->name('not.showing.up');
 Route::get('/blog', 'Blog\BlogController@index')->name('blog');
 
 //Auth routes

@@ -27,7 +27,7 @@ class GuestController extends Controller
 
     public function physiotherapy()
     {
-        return view('guest.physiotherapy');
+        return view('guest.chiropractor.physiotherapy');
     }
 
     public function contact()
@@ -40,8 +40,18 @@ class GuestController extends Controller
         return view('guest.contact.who_are_we');
     }
 
+    public function info()
+    {
+        return view('guest.info.info');
+    }
+
     public function links()
     {
-        return view('guest.links');
+        return view('guest.info.links');
+    }
+
+    public function notShowingUp()
+    {
+        return view('guest.info.not_showing_up');
     }
 }

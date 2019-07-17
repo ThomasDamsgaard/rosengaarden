@@ -18,25 +18,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/animated-dropdown.css') }}" rel="stylesheet">
-    <style media="screen">
-        html, body {
-            background-color: #F5F8FA;
-            color: #636b6f;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 200;
-            height: 100vh;
-            margin: 0;
-        }
-
-        #footer {
-          font-size: 0.6rem;
-        }
-    </style>
     @yield('css')
 </head>
 <body>
-    <div style="height: 2px; background-color: #C75B3A">  
+    <div style="height: 2px; background-color: #C75B3A">
     </div>
     <div id="app">
 

@@ -1,0 +1,13 @@
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 600ms linear;
+}

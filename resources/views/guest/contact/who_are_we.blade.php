@@ -115,7 +115,7 @@
   </div>
 
   <!-- Modals -->
-  @component('components/modal')
+  @component('components.staff_modal')
     @slot('id')
       1
     @endslot
@@ -133,7 +133,7 @@
 
   @endcomponent
 
-  @component('components/modal')
+  @component('components.staff_modal')
     @slot('id')
       2
     @endslot
@@ -149,7 +149,7 @@
     <p>Deltager løbende i efteruddannelse</p>
   @endcomponent
 
-  @component('components/modal')
+  @component('components.staff_modal')
     @slot('id')
       3
     @endslot
@@ -163,7 +163,7 @@
     <p>Besøg John Sandsberg på <a href="#">LinkedIn</a></p>
   @endcomponent
 
-  @component('components/modal')
+  @component('components.staff_modal')
     @slot('id')
       4
     @endslot
@@ -172,7 +172,7 @@
     @endslot
   @endcomponent
 
-  @component('components/modal')
+  @component('components.staff_modal')
     @slot('id')
       5
     @endslot
@@ -191,7 +191,7 @@
     </ul>
   @endcomponent
 
-  @component('components/modal')
+  @component('components.staff_modal')
     @slot('id')
       6
     @endslot
