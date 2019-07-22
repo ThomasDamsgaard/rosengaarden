@@ -2,8 +2,15 @@
 
 @section('pageTitle', 'Forside | Rosengårdens Kiropraktik')
 
+@section('css')
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<style media="screen">
+
+</style>
+@endsection
+
 @section('content')
-  <header class="masthead mb-3">
+  <header class="masthead">
   <div class="container h-100">
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
@@ -14,37 +21,56 @@
         </div>
 
         <p class="lead">Velkommen hos kiropraktorer og fysioterapeuter ved Rosengårdscenteret</p>
-        <a href="#content" class=" frontpage-btn btn btn-light" role="button">Læs mere</a>
+        {{-- <a href="#content" class=" frontpage-btn btn btn-light" role="button"><i style="color: black;" class="fas fa-arrow-circle-down fa-lg"></i></a> --}}
+
+
+
       </div>
     </div>
   </div>
 </header>
 <div class="container" id="content">
   <div class="row mb-md-5 mb-3">
-    <div class="col-md-8 offset-md-2">
-      <p class="lead text-center">
-        Vores mål er at hjælpe dig med at optimere dit helbred og velbefindende.
-      </p>
-      <hr>
-      <div class="row">
-        <div class="col-md-6">
-          <h6><b>Specialister i bevægeapparatet</b></h6>
-          <p>Som kiropraktorer og fysioterapeuter er vi specialister i kroppens bevægeapparat og uddannede til at få led og muskler til at fungere, bedst muligt.</p>
-          <h6><b>Tværfagligt team</b></h6>
-          <p> Vi er et tværfagligt team, som er parat til at hjælpe dig, uanset om problemet allerede er opstået og du har behov for behandling, eller blot ønsker en undersøgelse eller gode råd og vejledning.</p>
+
+    <div class="col-md-8 offset-md-2" >
+      <div class="card" style="margin-top: -71px;">
+        <div class="mouse-scroll d-none d-lg-block" style="margin-top: -90px;">
+      		<div class="mouse">
+      			<div class="wheel"></div>
+      		</div>
+      		<div>
+      			<span class="m-scroll-arrows arrow"></span>
+      		</div>
         </div>
-        <div class="col-md-6">
-          <h6><b>Henvisning og sygesikring</b></h6>
-          <p>Du behøver ingen henvisning fra din egen læge ved kiropraktorbesøg, vi har overenskomst med sygesikringen og der ydes tilskud fra Sygeforsikringen Danmark.</p>
-          <h6><b>Kiropraktorvagt</b></h6>
-          <p>
-            I weekender og helligdage er der mulighed for at kontakte vagthavende kiropraktor i Region Syd for behandling.<br>
-            Mere info på regionens <a href="https://www.regionsyddanmark.dk/wm362773">hjemmeside</a>.
-          </p>
+
+        <p class="mt-3 mb-0 lead text-center">
+          Vores mål er at hjælpe dig med at optimere dit helbred og velbefindende.
+        </p>
+        <hr>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <h6><b>Specialister i bevægeapparatet</b></h6>
+              <p>Som kiropraktorer og fysioterapeuter er vi specialister i kroppens bevægeapparat og uddannede til at få led og muskler til at fungere, bedst muligt.</p>
+              <h6><b>Tværfagligt team</b></h6>
+              <p> Vi er et tværfagligt team, som er parat til at hjælpe dig, uanset om problemet allerede er opstået og du har behov for behandling, eller blot ønsker en undersøgelse eller gode råd og vejledning.</p>
+            </div>
+            <div class="col-md-6">
+              <h6><b>Henvisning og sygesikring</b></h6>
+              <p>Du behøver ingen henvisning fra din egen læge ved kiropraktorbesøg, vi har overenskomst med sygesikringen og der ydes tilskud fra Sygeforsikringen Danmark.</p>
+              <h6><b>Kiropraktorvagt</b></h6>
+              <p>
+                I weekender og helligdage er der mulighed for at kontakte vagthavende kiropraktor i Region Syd for behandling.<br>
+                Mere info på regionens <a href="https://www.regionsyddanmark.dk/wm362773">hjemmeside</a>.
+              </p>
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
   </div>
+
   {{-- <hr>
     <div class="row mt-md-5 mt-3">
       <div class="col-md-4 mb-3">

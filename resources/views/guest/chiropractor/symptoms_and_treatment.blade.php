@@ -4,21 +4,6 @@
 
 @section('css')
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-  <style media="screen">
-  ul {
-list-style: none;
-padding: 0;
-margin-bottom: 0;
-}
-li {
-padding-left: 1.3em;
-padding-bottom: 1rem;
-}
-i {
-  color: #F5F8FA;
-}
-  </style>
 @endsection
 
 @section('content')
