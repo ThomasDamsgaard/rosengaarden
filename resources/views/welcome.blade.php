@@ -32,7 +32,7 @@
 <div class="container" id="content">
   <div class="row mb-md-5 mb-3">
 
-    <div class="col-md-8 offset-md-2" >
+    <div class="col-md-8 offset-md-2">
       <div class="card" style="margin-top: -71px;">
         <div class="mouse-scroll d-none d-lg-block" style="margin-top: -90px;">
       		<div class="mouse">
@@ -53,7 +53,7 @@
               <h6><b>Specialister i bevægeapparatet</b></h6>
               <p>Som kiropraktorer og fysioterapeuter er vi specialister i kroppens bevægeapparat og uddannede til at få led og muskler til at fungere, bedst muligt.</p>
               <h6><b>Tværfagligt team</b></h6>
-              <p> Vi er et tværfagligt team, som er parat til at hjælpe dig, uanset om problemet allerede er opstået og du har behov for behandling, eller blot ønsker en undersøgelse eller gode råd og vejledning.</p>
+              <p> Vi er et tværfagligt team, som er parat til at hjælpe dig, uanset om problemet allerede er opstået og har behov for behandling, eller blot ønsker en undersøgelse eller gode råd og vejledning.</p>
             </div>
             <div class="col-md-6">
               <h6><b>Henvisning og sygesikring</b></h6>

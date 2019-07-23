@@ -10765,6 +10765,13 @@ i {
   color: #F5F8FA;
 }
 
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  margin-right: 16px;
+}
+
 ul {
   list-style: none;
   padding: 0;
