@@ -14,7 +14,7 @@
         <div class="card-header" style="background-color: #fff;">
           <h5 style=" margin-bottom: 0;">
             <b>Information</b>
-            <span style="font-size: 0.9rem;"> - Klik for at se mere</span>
+            <span style="font-size: 0.9rem;"> - Klik på ikoner for at se mere</span>
           </h5>
         </div>
         <div class="card-body">
