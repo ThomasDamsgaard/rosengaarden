@@ -15,7 +15,7 @@
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
         <div class="col-sm-4 offset-sm-4">
-          <h4 class="font-weight-light" style="margin: 0px;">Rosengårdens</h4>
+          <h4 class="font-weight-light" style="margin: 0px;">Rosengården</h4>
           <hr style="background-color: #C75B3A; height: 1px; margin: 0.25rem;">
           <h1>Kiropraktik</h1>
         </div>
