@@ -17,9 +17,13 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $posts = Blog::orderBy('created_at', 'desc')->simplePaginate(3);
+        $firstPost = Blog::latest('created_at')->first();
 
-        return view('blog.index', compact('posts'));
+        $trailingPosts = Blog::orderBy('created_at', 'desc')->paginate()->slice(1, 4);
+
+        // dd($firstPost);
+
+        return view('blog.index', compact('firstPost', 'trailingPosts'));
     }
 
     /**
