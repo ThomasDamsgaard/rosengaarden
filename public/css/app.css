@@ -10689,6 +10689,10 @@ a.text-dark:focus {
   transition: background-color 600ms linear;
 }
 
+.nav-item {
+  padding-bottom: 0;
+}
+
 #footer {
   font-size: 0.6rem;
 }

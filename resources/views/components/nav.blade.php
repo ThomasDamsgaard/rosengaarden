@@ -20,11 +20,11 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="chiropractor" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Kiropraktik
+                  Behandling
                 </a>
                 <div class="dropdown-menu animate slideIn" aria-labelledby="chiropractor">
                   <a class="dropdown-item" href="{{ route('symptoms')}}">
-                    Symptomer og behandling
+                    Kiropraktik
                   </a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="{{ route('children')}}">
@@ -36,20 +36,6 @@
                   </a>
                 </div>
               </li>
-              {{-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="info" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Info
-                </a>
-                <div class="dropdown-menu animate slideIn" aria-labelledby="info">
-                  <a class="dropdown-item" href="{{ route('links') }}">
-                    Links
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="{{ route('not.showing.up') }}">
-                    Udeblivelse
-                  </a>
-                </div>
-              </li> --}}
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="contact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Kontakt

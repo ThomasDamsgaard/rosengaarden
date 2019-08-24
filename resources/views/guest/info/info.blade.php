@@ -21,9 +21,6 @@
           <div class="row">
             <div class="col-md-6">
               <div class="row align-items-center">
-                <div >
-
-                </div>
                 <div class="col-2" data-toggle="modal" data-target="#missing" style="cursor: pointer;">
                   <div class="icon">
                     <i class="far fa-clock"></i>
@@ -105,7 +102,7 @@
   </div>
 </div>
 
-@component('components.info_modal')
+@component('components.modal')
   @slot('id')
     missing
   @endslot
@@ -124,7 +121,7 @@
   Priser for udeblivelse står i bunden.
 @endcomponent
 
-@component('components.info_modal')
+@component('components.modal')
   @slot('id')
     journal
   @endslot
@@ -139,7 +136,7 @@
   </p>
 @endcomponent
 
-@component('components.info_modal')
+@component('components.modal')
   @slot('id')
     links
   @endslot
@@ -159,7 +156,7 @@
       <a href="https://www.linkedin.com/in/mathilde-christensen-9217a4175/" target="_blank" class="list-group-item list-group-item-action">Mathilde Christensen - LinkedIn</a>
 @endcomponent
 
-@component('components.info_modal')
+@component('components.modal')
   @slot('id')
     prices
   @endslot

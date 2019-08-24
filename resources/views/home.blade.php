@@ -17,16 +17,22 @@
 
                   @foreach($posts as $post)
                   <div class="row">
-                    <div class="col-8">
-                      {{ $post->title }}
+                    <div class="col-md-5 mb-3 mb-md-0">
+                      {{ str_limit($post->title, 30) }}
                     </div>
-                    <div class="col-2">
+                    <div class="col-md-2 text-center">
+                      <a class="btn btn-outline-info btn-sm"
+                      href="{{ action('Blog\BlogController@show', $post->slug) }}">
+                        Vis
+                      </a>
+                    </div>
+                    <div class="col-md-3 text-center">
                       <a class="btn btn-outline-dark btn-sm"
                       href="{{ action('Blog\BlogController@edit', $post->id) }}">
                         Ændre Indlæg
                       </a>
                     </div>
-                    <div class="col-2">
+                    <div class="col-md-2 text-center">
                       <form onsubmit="return deleteConfirmation()" action="{{ action('Blog\BlogController@destroy', $post->id)}}" method="post">
                         @csrf
                         <input type="hidden" name="_method" value="DELETE">

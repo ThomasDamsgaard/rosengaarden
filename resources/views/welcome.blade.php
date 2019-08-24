@@ -23,8 +23,6 @@
         <p class="lead">Velkommen hos kiropraktorer og fysioterapeuter ved Rosengårdscenteret</p>
         {{-- <a href="#content" class=" frontpage-btn btn btn-light" role="button"><i style="color: black;" class="fas fa-arrow-circle-down fa-lg"></i></a> --}}
 
-
-
       </div>
     </div>
   </div>
@@ -35,9 +33,9 @@
     <div class="col-md-8 offset-md-2">
       <div class="card" style="margin-top: -71px;">
         <div class="mouse-scroll d-none d-lg-block" style="margin-top: -90px;">
-      		<div class="mouse">
+      		{{-- <div class="mouse">
       			<div class="wheel"></div>
-      		</div>
+      		</div> --}}
       		<div>
       			<span class="m-scroll-arrows arrow"></span>
       		</div>
@@ -66,58 +64,10 @@
             </div>
           </div>
         </div>
-
       </div>
+      <div class="mb-5 mt-5"></div>
     </div>
   </div>
-
-  {{-- <hr>
-    <div class="row mt-md-5 mt-3">
-      <div class="col-md-4 mb-3">
-        <p class="lead" style="margin-bottom: 0px;">Telefontider:</p>
-        <ul style="list-style: none; padding: 0;">
-          <li>Mandag 8.00 - 18.00</li>
-          <li>Tirsdag 7.30 - 18.00</li>
-          <li>Onsdag 7.30 - 14.00</li>
-          <li>Torsdag 8.00 - 18.00</li>
-          <li>Fredag 7.30 - 15.00</li>
-        </ul>
-        <p>Med forbehold for ændringer ved kurser, under ferier og lignende.</p>
-      </div>
-      <div class="col-md-4 mb-3">
-        <p class="lead" style="margin-bottom: 0px;">Kiropraktorvagt</p>
-        <p>
-          I weekender og helligdage kan vagthavende kiropraktor i region syd kontaktes på følgende telefon nr:<br>
-          Vagtkreds Fyn: 7020 3642<br>
-          Vagtkreds Jylland: 7020 3634<br>
-          Der er telefontid mellem kl 9 og 10.<br>
-          Mere info på regionens hjemmeside via følgende <a href="https://www.regionsyddanmark.dk/wm362773">link</a>.
-        </p>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card">
-          <div class="card-header">
-            Seneste blogindlæg
-          </div>
-          <div class="card-body">
-            <ul class="list-group">
-              @forelse ($posts as $post)
-                <a href="{{ url('/blog/' . $post->slug)}}" class="list-group-item list-group-item-action flex-column align-items-start">
-                  <h5 class="mb-1">{{ str_limit($post->title, 15) }}</h5>
-                  <div class="d-flex w-100 justify-content-between">
-                    <p class="mb-1">{{ str_limit($post->subtitle, 10) }}</p>
-                    <small class="text-muted">{{ $post->created_at->diffForHumans() }}</small>
-                  </div>
-                </a>
-              @empty
-                <h6>Ingen blogindlæg endnu</h6>
-              @endforelse
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    </div> --}}
 </div>
 @endsection
 
