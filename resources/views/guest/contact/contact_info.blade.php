@@ -5,7 +5,7 @@
 @section('content')
 <div class="container">
   <div class="row">
-    <div class="col-md-8 offset-md-2 mt-6">
+    <div class="col-md-8 offset-md-2 mt-6 mt-lg-3">
       <div class="card">
         <div class="card-header" style="background-color: #fff;">
           <h5 style=" margin-bottom: 0;">
@@ -15,13 +15,26 @@
         <div class="card-body">
           <div class="row">
             <div class="col-md-6 align-self-center text-center mb-3">
-              <h6 class="mb-3">
+              <h5 class="mb-3">
                 Rosengården Kiropraktik<br>
                 Tagtækkervej 8, 7. sal.<br>
                 5230 Odense M
-              </h6>
+              </h5>
+              {{-- <p style="font-size: 0.7rem;">
+                Åbnings/telefontider
+                <br>
+                Mandag:
+                <br>
+                Tirsdag:
+                <br>
+                Onsdag:
+                <br>
+                Torsdag:
+                <br>
+                Fredag:
+              </p> --}}
               <a data-toggle="modal" data-target="#contact_modal" style="cursor: pointer;">
-                Se telefontider og mail
+                Se Åbnings/telefontider og mail
               </a>
             </div>
             <div class="col-md-6 mb-3">
@@ -59,7 +72,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Telefontider og mail</h5>
+        <h5 class="modal-title">Åbnings/Telefontider og mail</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -75,7 +88,7 @@
             </p>
           </div>
           <div class="col-md-6">
-            <p>Telefontider:</br>
+            <p>Åbnings/Telefontider:</br>
               Mandag 8.00 - 18.00</br>
               Tirsdag 7.30 - 18.00</br>
               Onsdag 7.30 - 14.00</br>

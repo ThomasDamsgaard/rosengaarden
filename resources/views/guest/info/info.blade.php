@@ -9,7 +9,7 @@
 @section('content')
 <div class="container">
   <div class="row">
-    <div class="col-lg-8 offset-md-2 mt-6 mb-5">
+    <div class="col-lg-8 offset-md-2 mt-6 mt-lg-3">
       <div class="card">
         <div class="card-header" style="background-color: #fff;">
           <h5 style=" margin-bottom: 0;">

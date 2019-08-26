@@ -1,4 +1,4 @@
-<nav id="footer" class="navbar navbar-expand-lg fixed-bottom bg-light d-none d-lg-block">
+<nav id="footer" class="navbar navbar-expand-lg fixed-bottom bg-light">
   <div class="container justify-content-center">
     <div class="row">
       <div class="col-12 text-center">

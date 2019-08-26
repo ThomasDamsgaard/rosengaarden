@@ -30,7 +30,7 @@
 <div class="container" id="content">
   <div class="row mb-md-5 mb-3">
 
-    <div class="col-md-8 offset-md-2" style="margin-bottom: 6rem !important;">
+    <div class="col-md-8 offset-md-2 mb-10 mb-lg-3">
       <div class="card" style="margin-top: -71px;">
         <div class="mouse-scroll d-none d-lg-block" style="margin-top: -90px;">
       		{{-- <div class="mouse">
