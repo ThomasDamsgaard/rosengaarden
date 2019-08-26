@@ -12,6 +12,16 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $( '.button_container' ).click(function() {
+        $( this ).toggleClass( "active" );
+        $( '#overlay' ).toggleClass( "open" );
+      });
+    });
+
+    </script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">

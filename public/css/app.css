@@ -10695,7 +10695,7 @@ a.text-dark:focus {
 
 #header {
   padding: 1em 3em;
-  position: relative;
+  position: fixed;
   z-index: 300;
   opacity: 1;
 }
@@ -11173,5 +11173,13 @@ body {
 
 h6 {
   color: #333;
+}
+
+.mt-6 {
+  margin-top: 4rem !important;
+}
+
+.mb-7 {
+  margin-bottom: 5rem !important;
 }
 

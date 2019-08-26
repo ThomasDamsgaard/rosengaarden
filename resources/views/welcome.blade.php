@@ -30,7 +30,7 @@
 <div class="container" id="content">
   <div class="row mb-md-5 mb-3">
 
-    <div class="col-md-8 offset-md-2">
+    <div class="col-md-8 offset-md-2" style="margin-bottom: 5rem !important;">
       <div class="card" style="margin-top: -71px;">
         <div class="mouse-scroll d-none d-lg-block" style="margin-top: -90px;">
       		{{-- <div class="mouse">
@@ -65,23 +65,13 @@
           </div>
         </div>
       </div>
-      <div class="mb-5 mt-5"></div>
     </div>
   </div>
 </div>
 @endsection
 
 @section('javascript')
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script type="text/javascript">
-  $(document).ready(function() {
-    $( '.button_container' ).click(function() {
-      $( this ).toggleClass( "active" );
-      $( '#overlay' ).toggleClass( "open" );
-    });
-  });
 
-  </script>
   <script type="text/javascript">
   (function() {
     'use strict'
@@ -96,8 +86,6 @@
         footer.classList.remove('scrolled');
       }
     }
-
-
 
     // const mobileNav = document.querySelector('.button_container');
     // const overlay = document.querySelector('#overlay');
