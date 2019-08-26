@@ -97,16 +97,13 @@
 </nav>
 
 <!-- Mobile Nav -->
-<div class="mobile-nav">
-  <header id="header" class="d-lg-none">
-    <nav id="toggle">
-      <div class="button_container">
-        <span class="top"></span>
-        <span class="middle"></span>
-        <span class="bottom"></span>
-      </div>
-    </nav>
-  </header>
-</div>
-
+<header id="header" class="d-lg-none">
+  <nav id="toggle">
+    <div class="button_container">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+  </nav>
+</header>
 <!-- Mobile Nav -->
