@@ -1,0 +1,98 @@
+#header {
+  padding: 1em 3em;
+  position: relative;
+  z-index: 300;
+  opacity: 1;
+}
+
+#toggle {
+  position: relative;
+  padding: 0.7em;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+
+
+#toggle:before, #toggle:after {
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+body.overflow-hidden #toggle:before, body.overflow-hidden #toggle:after {
+  color: #444;
+}
+
+.button_container {
+  position: relative;
+  height: 17px;
+  width: 25px;
+  -webkit-transition: opacity 2s ease;
+  transition: opacity 2s ease;
+}
+
+.button_container.active .top {
+  -webkit-transform: translate3d(0,7px,0) rotate(45deg);
+  transform: translate3d(0,7px,0) rotate(45deg);
+}
+
+.button_container.active .middle {
+  opacity: 0;
+}
+
+.button_container.active .bottom {
+  -webkit-transform: translate3d(0,-7px,0) rotate(-45deg);
+  transform: translate3d(0,-7px,0) rotate(-45deg);
+}
+
+.button_container span {
+  background: #444;
+  border: none;
+  height: 3px;
+  border-radius: 4px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: -webkit-transform .3s cubic-bezier(.4,2.08,.55,.44), opacity .25s ease;
+  transition: transform .3s cubic-bezier(.4,2.08,.55,.44), opacity .25s ease;
+  -webkit-transform: translate3d(0,0,0) rotate(0);
+  -moz-transform: translate3d(0,0,0) rotate(0);
+  transform: translate3d(0,0,0) rotate(0);
+  cursor: pointer;
+}
+
+.button_container span:nth-of-type(2) {
+  top: 7px;
+  transform: scaleX(0.6);
+}
+
+.button_container span:nth-of-type(3) {
+  top: 14px;
+  transform: scaleX(0.8);
+}
+
+.button_container.active span {
+  background: #444;
+}
+
+#toggle:hover .button_container:not(.active) > span {
+  transform: scaleX(1);
+}

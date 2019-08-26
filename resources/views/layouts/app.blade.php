@@ -34,6 +34,8 @@
 
         @include('components.footer')
 
+        @include('components.overlay')
+
     </div>
 
     @yield('javascript')

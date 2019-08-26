@@ -72,6 +72,16 @@
 @endsection
 
 @section('javascript')
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $( '.button_container' ).click(function() {
+      $( this ).toggleClass( "active" );
+      $( '#overlay' ).toggleClass( "open" );
+    });
+  });
+
+  </script>
   <script type="text/javascript">
   (function() {
     'use strict'
@@ -86,6 +96,16 @@
         footer.classList.remove('scrolled');
       }
     }
+
+
+
+    // const mobileNav = document.querySelector('.button_container');
+    // const overlay = document.querySelector('#overlay');
+    // mobileNav.addEventListener('click', function(e) {
+    //   mobileNav.classList.toggle('active');
+    //   overlay.classList.toggle('open');
+    // });
   })();
   </script>
+
 @endsection

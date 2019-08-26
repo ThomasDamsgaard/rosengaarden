@@ -1,7 +1,7 @@
 @if (Route::is('frontpage'))
-  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top d-none d-lg-block">
 @else
-  <nav class="navbar navbar-expand-md navbar-light">
+  <nav class="navbar navbar-expand-md navbar-light d-none d-lg-block">
 @endif
   <div class="mx-auto d-sm-flex d-block flex-md-nowrap">
     <div class="container">
@@ -95,3 +95,15 @@
     </div>
   </div>
 </nav>
+
+<!-- Mobile Nav -->
+<header id="header" class="d-lg-none">
+  <nav id="toggle">
+    <div class="button_container">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+  </nav>
+</header>
+<!-- Mobile Nav -->

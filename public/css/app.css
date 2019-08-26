@@ -10693,6 +10693,220 @@ a.text-dark:focus {
   padding-bottom: 0;
 }
 
+#header {
+  padding: 1em 3em 0;
+  position: relative;
+  z-index: 300;
+  opacity: 1;
+}
+
+#toggle {
+  position: relative;
+  padding: 0.7em;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#toggle:before,
+#toggle:after {
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+body.overflow-hidden #toggle:before,
+body.overflow-hidden #toggle:after {
+  color: #444;
+}
+
+.button_container {
+  position: relative;
+  height: 17px;
+  width: 25px;
+  transition: opacity 2s ease;
+}
+
+.button_container.active .top {
+  transform: translate3d(0, 7px, 0) rotate(45deg);
+}
+
+.button_container.active .middle {
+  opacity: 0;
+}
+
+.button_container.active .bottom {
+  transform: translate3d(0, -7px, 0) rotate(-45deg);
+}
+
+.button_container span {
+  background: #444;
+  border: none;
+  height: 3px;
+  border-radius: 4px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44), opacity 0.25s ease;
+  transform: translate3d(0, 0, 0) rotate(0);
+  cursor: pointer;
+}
+
+.button_container span:nth-of-type(2) {
+  top: 7px;
+  transform: scaleX(0.6);
+}
+
+.button_container span:nth-of-type(3) {
+  top: 14px;
+  transform: scaleX(0.8);
+}
+
+.button_container.active span {
+  background: #444;
+}
+
+#toggle:hover .button_container:not(.active) > span {
+  transform: scaleX(1);
+}
+
+.overlay {
+  position: fixed;
+  background: #f5f8fa;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 100;
+  visibility: hidden;
+  overflow: hidden;
+  transform: translate3d(100%, 0, 0);
+  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), visibility 0.4s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.overlay.open {
+  visibility: visible;
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  min-width: 280px;
+  transform: 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  visibility: 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  opacity: 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  background-color: #f5f8fa;
+}
+
+.overlay-list {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 4em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+
+.overlay.open li {
+  -webkit-animation: fadeInRight 0.5s ease forwards;
+  animation: fadeInRight 0.5s ease forwards;
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+}
+
+.overlay.open li:nth-of-type(2) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.overlay.open li:nth-of-type(3) {
+  -webkit-animation-delay: 0.45s;
+  animation-delay: 0.45s;
+}
+
+.overlay.open li:nth-of-type(4) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.overlay nav {
+  position: relative;
+  z-index: 2;
+  width: 230px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
+
+.overlay li {
+  display: block;
+  position: relative;
+  opacity: 1;
+  transform: translateY(-20px) translateZ(0);
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.overlay li a {
+  display: block;
+  position: relative;
+  color: #444;
+  color: #444;
+  font-size: 22px;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  overflow: hidden;
+  line-height: 1;
+  padding: 0.7em 0 0.5em;
+  opacity: 0.7;
+}
+
+.overlay li a:after {
+  content: "";
+  -webkit-transition: 0.7s opacity cubic-bezier(0.23, 1, 0.32, 1), 0.7s;
+  -webkit-transform: cubic-bezier(0.23, 1, 0.32, 1);
+  transition: 0.7s opacity cubic-bezier(0.23, 1, 0.32, 1), 0.7s;
+  transform: cubic-bezier(0.23, 1, 0.32, 1);
+  height: 2px;
+  width: 44px;
+  background: currentColor;
+  position: absolute;
+  left: 50%;
+  bottom: 4px;
+  transform-origin: 50%;
+  transform: scaleX(0) translateZ(0) translateX(-50%);
+  opacity: 0;
+  /* margin-right: -50%; */
+  pointer-events: none;
+}
+
+.overlay li:active a:after,
+.overlay li:focus a:after,
+.overlay li:hover a:after {
+  opacity: 1;
+  transform: scaleX(1) translateZ(0) translateX(-50%);
+  transform-origin: -50%;
+}
+
+.overlay-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  min-width: 240px;
+  display: flex;
+}
+
 #footer {
   font-size: 0.6rem;
 }
