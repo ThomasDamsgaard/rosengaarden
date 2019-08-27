@@ -17,7 +17,7 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $posts = Blog::orderBy('created_at', 'asc')->paginate(3);
+        $posts = Blog::orderBy('created_at', 'desc')->paginate(4);
 
         return view('blog.index', compact('posts'));
     }
@@ -40,11 +40,9 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
-        $post = new Blog;
-
         Blog::create([
           'title' => request('title'),
-          'subtitle' => request('subtitle'),
+          'author' => request('author'),
           'body' => request('body')
         ]);
 
@@ -52,8 +50,7 @@ class BlogController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
+     * Display the specified resourauthor
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
@@ -86,13 +83,13 @@ class BlogController extends Controller
     {
         $this->validate($request, [
           'title' => 'required',
-          'subtitle' => 'required',
+          'author' => 'required',
           'body' => 'required'
         ]);
 
         $post = Blog::find($id);
         $post->title = $request->get('title');
-        $post->subtitle = $request->get('subtitle');
+        $post->author = $request->get('author');
         $post->body = $request->get('body');
 
         $post->save();

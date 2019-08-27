@@ -27,20 +27,20 @@
 @section('content')
 <div class="container">
   <div class="row">
-    <div class="col-md-8 offset-md-2">
-      <div class="card">
+    <div class="col-md-8 offset-md-2 text-center mt-6 mt-lg-4">
+      {{-- <div class="card">
         <div class="card-body">
-          <div class="col-md-8 offset-md-2 text-center mb-3 mt-3">
+          <div class="col-md-8 offset-md-2 text-center mb-3 mt-3"> --}}
 
             @foreach($posts as $post)
             <a href="{{ url('/blog/'. $post->slug)}}">
-              <h2>
+              <h4>
                 {{ $post->title }}
-              </h2>
+              </h4>
             </a>
-            <h5 class="text-muted">
-              {{ $post->subtitle }}
-            </h5>
+            <h6 class="">
+              Skrevet af {{ $post->author }}
+            </h6>
             <p class="text-muted">
               {{ $post->created_at->formatLocalized('%d') }}
               {{ ucfirst($post->created_at->formatLocalized('%B')) }}
@@ -50,10 +50,10 @@
 
               {{ $posts->links() }}
 
-            </div>
+            {{-- </div>
         </div>
 
-      </div>
+      </div> --}}
 
     </div>
 

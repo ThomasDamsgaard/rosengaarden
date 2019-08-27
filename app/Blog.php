@@ -8,7 +8,7 @@ use Spatie\Sluggable\SlugOptions;
 
 class Blog extends Model
 {
-    protected $fillable = ['title', 'subtitle', 'body'];
+    protected $fillable = ['title', 'author', 'body'];
 
     use HasSlug;
 

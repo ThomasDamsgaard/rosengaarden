@@ -47,6 +47,21 @@
           <div class="row">
             <div class="col-12">
               <h6><b>Massage</b></h6>
+              <p>
+                Berit Jensen
+              </p>
+              <p>
+                Er uddannet lægeeksamineret massør i 2017 - samt RAB godkendt massør.
+              </p>
+
+              <p>
+                I forbindelse med det har jeg taget følgende kurser:<br>
+                Skadeterapeut <br>
+                Muskelterapeut <br>
+                Muskulær zoneterapi <br>
+                Cupping
+              </p>
+
 
             </div>
           </div>

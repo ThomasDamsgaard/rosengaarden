@@ -13,8 +13,8 @@
             </div>
 
             <div class="form-group">
-              <label for="subtitle" class="label">Undertitel</label>
-              <input class="form-control" type="text" id="subtitle" name="subtitle">
+              <label for="author" class="label">Forfatter *</label>
+              <input class="form-control" type="text" id="author" name="author">
             </div>
 
             <div id="toolbar-container"></div>
