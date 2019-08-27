@@ -12,6 +12,11 @@
   transition: background-color 600ms linear;
 }
 
+#header.scrolled {
+  background-color: #fff !important;
+  transition: background-color 600ms linear;
+}
+
 .nav-item {
   padding-bottom: 0;
 }

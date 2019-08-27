@@ -3,113 +3,116 @@
 @section('pageTitle', 'Hvem er vi | Rosengårdens Kiropraktik')
 
 @section('content')
-  <div class="container mt-5 mb-5">
+  <div class="container">
 
     <!-- Row -->
     <div class="row">
+      <div class="col-12 mt-6 mt-lg-3">
+        <div class="row">
+          <!-- Team Member 1 -->
+          @component('components.card')
+            @slot('id')
+              1
+            @endslot
+            @slot('img')
+              https://source.unsplash.com/TMgQMXoglsM/500x350
+            @endslot
+            @slot('name')
+              Mathilde Christensen
+            @endslot
+            @slot('profession')
+              Kiropraktor og medejer
+            @endslot
+          @endcomponent
+          <!-- Team Member 1 -->
 
-      <!-- Team Member 1 -->
-      @component('components.card')
-        @slot('id')
-          1
-        @endslot
-        @slot('img')
-          https://source.unsplash.com/TMgQMXoglsM/500x350
-        @endslot
-        @slot('name')
-          Mathilde Christensen
-        @endslot
-        @slot('profession')
-          Kiropraktor og medejer
-        @endslot
-      @endcomponent
-      <!-- Team Member 1 -->
+          <!-- Team Member 2 -->
+          @component('components.card')
+            @slot('id')
+              2
+            @endslot
+            @slot('img')
+              https://source.unsplash.com/TMgQMXoglsM/500x350
+            @endslot
+            @slot('name')
+              Grethe Thøstesen
+            @endslot
+            @slot('profession')
+              Kiropraktor og medejer
+            @endslot
+          @endcomponent
+          <!-- Team Member 2 -->
 
-      <!-- Team Member 2 -->
-      @component('components.card')
-        @slot('id')
-          2
-        @endslot
-        @slot('img')
-          https://source.unsplash.com/TMgQMXoglsM/500x350
-        @endslot
-        @slot('name')
-          Grethe Thøstesen
-        @endslot
-        @slot('profession')
-          Kiropraktor og medejer
-        @endslot
-      @endcomponent
-      <!-- Team Member 2 -->
+          <!-- Team Member 3 -->
+          @component('components.card')
+            @slot('id')
+              3
+            @endslot
+            @slot('img')
+              https://source.unsplash.com/TMgQMXoglsM/500x350
+            @endslot
+            @slot('name')
+              John Sandsberg
+            @endslot
+            @slot('profession')
+              Kiropraktor og medejer
+            @endslot
+          @endcomponent
+          <!-- Team Member 3 -->
 
-      <!-- Team Member 3 -->
-      @component('components.card')
-        @slot('id')
-          3
-        @endslot
-        @slot('img')
-          https://source.unsplash.com/TMgQMXoglsM/500x350
-        @endslot
-        @slot('name')
-          John Sandsberg
-        @endslot
-        @slot('profession')
-          Kiropraktor og medejer
-        @endslot
-      @endcomponent
-      <!-- Team Member 3 -->
+          <!-- Team Member 4 -->
+          @component('components.card')
+            @slot('id')
+              4
+            @endslot
+            @slot('img')
+              https://source.unsplash.com/TMgQMXoglsM/500x350
+            @endslot
+            @slot('name')
+              Thomas Damsgaard
+            @endslot
+            @slot('profession')
+              Kiropraktor
+            @endslot
+          @endcomponent
+          <!-- Team Member 4 -->
 
-      <!-- Team Member 4 -->
-      @component('components.card')
-        @slot('id')
-          4
-        @endslot
-        @slot('img')
-          https://source.unsplash.com/TMgQMXoglsM/500x350
-        @endslot
-        @slot('name')
-          Thomas Damsgaard
-        @endslot
-        @slot('profession')
-          Kiropraktor
-        @endslot
-      @endcomponent
-      <!-- Team Member 4 -->
+          <!-- Team Member 5 -->
+          @component('components.card')
+            @slot('id')
+              5
+            @endslot
+            @slot('img')
+              https://source.unsplash.com/TMgQMXoglsM/500x350
+            @endslot
+            @slot('name')
+              Berit Abildgaard Jensen
+            @endslot
+            @slot('profession')
+              Sekretær og massør
+            @endslot
+          @endcomponent
+          <!-- Team Member 5 -->
 
-      <!-- Team Member 5 -->
-      @component('components.card')
-        @slot('id')
-          5
-        @endslot
-        @slot('img')
-          https://source.unsplash.com/TMgQMXoglsM/500x350
-        @endslot
-        @slot('name')
-          Berit Abildgaard Jensen
-        @endslot
-        @slot('profession')
-          Sekretær og massør
-        @endslot
-      @endcomponent
-      <!-- Team Member 5 -->
+          <!-- Team Member 6 -->
+          @component('components.card')
+            @slot('id')
+              6
+            @endslot
+            @slot('img')
+              https://source.unsplash.com/TMgQMXoglsM/500x350
+            @endslot
+            @slot('name')
+              Ann-Kristin Kristiansen
+            @endslot
+            @slot('profession')
+              Fysioterapeut
+            @endslot
+          @endcomponent
+          <!-- Team Member 6 -->
+        </div>
 
-      <!-- Team Member 6 -->
-      @component('components.card')
-        @slot('id')
-          6
-        @endslot
-        @slot('img')
-          https://source.unsplash.com/TMgQMXoglsM/500x350
-        @endslot
-        @slot('name')
-          Ann-Kristin Kristiansen
-        @endslot
-        @slot('profession')
-          Fysioterapeut
-        @endslot
-      @endcomponent
-      <!-- Team Member 6 -->
-
+      </div>
 
     <!-- Row -->
   </div>

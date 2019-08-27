@@ -104,5 +104,22 @@
     </div>
   </div>
 </div>
+@endsection
+
+@section('javascript')
+
+  <script type="text/javascript">
+  (function() {
+    'use strict'
+    window.onscroll = function() {
+      const navbar = document.querySelector('#header');
+      if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    }
+  })();
+  </script>
 
 @endsection
