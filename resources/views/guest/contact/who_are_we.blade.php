@@ -14,9 +14,9 @@
             @slot('id')
               1
             @endslot
-            @slot('img')
+            {{-- @slot('img')
               https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot
+            @endslot --}}
             @slot('name')
               Mathilde Christensen
             @endslot
@@ -31,9 +31,9 @@
             @slot('id')
               2
             @endslot
-            @slot('img')
+            {{-- @slot('img')
               https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot
+            @endslot --}}
             @slot('name')
               Grethe Thøstesen
             @endslot
@@ -48,9 +48,9 @@
             @slot('id')
               3
             @endslot
-            @slot('img')
+            {{-- @slot('img')
               https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot
+            @endslot --}}
             @slot('name')
               John Sandsberg
             @endslot
@@ -65,9 +65,9 @@
             @slot('id')
               4
             @endslot
-            @slot('img')
+            {{-- @slot('img')
               https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot
+            @endslot --}}
             @slot('name')
               Thomas Damsgaard
             @endslot
@@ -82,9 +82,9 @@
             @slot('id')
               5
             @endslot
-            @slot('img')
+            {{-- @slot('img')
               https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot
+            @endslot --}}
             @slot('name')
               Berit Abildgaard Jensen
             @endslot
@@ -99,9 +99,9 @@
             @slot('id')
               6
             @endslot
-            @slot('img')
+            {{-- @slot('img')
               https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot
+            @endslot --}}
             @slot('name')
               Ann-Kristin Kristiansen
             @endslot
