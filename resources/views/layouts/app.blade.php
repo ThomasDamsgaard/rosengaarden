@@ -42,6 +42,8 @@
             @yield('content')
         </main>
 
+        @include('cookieConsent::index')
+
         @include('components.footer')
 
         @include('components.overlay')
