@@ -1,7 +1,7 @@
 @if (Route::is('frontpage'))
-  <nav class="navbar navbar-expand-md navbar-light fixed-top d-none d-lg-block">
+<nav class="navbar navbar-expand-md navbar-light fixed-top d-none d-lg-block">
 @else
-  <nav class="navbar navbar-expand-md navbar-light d-none d-lg-block">
+<nav class="navbar navbar-expand-md navbar-light d-none d-lg-block">
 @endif
   <div class="mx-auto d-sm-flex d-block flex-md-nowrap">
     <div class="container">

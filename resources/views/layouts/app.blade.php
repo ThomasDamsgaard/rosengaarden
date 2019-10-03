@@ -42,7 +42,7 @@
             @yield('content')
         </main>
 
-        @include('cookieConsent::index')
+        {{-- @include('cookieConsent::index') --}}
 
         @include('components.footer')
 
