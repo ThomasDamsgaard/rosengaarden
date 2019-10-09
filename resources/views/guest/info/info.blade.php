@@ -21,21 +21,19 @@
           <div class="row">
             <div class="col-md-6">
               <div class="row align-items-center">
-                <div class="col-2" data-toggle="modal" data-target="#missing" style="cursor: pointer;">
+                <div class="col-2" data-toggle="modal" data-target="#prices" style="cursor: pointer;">
                   <div class="icon">
-                    <i class="far fa-clock"></i>
+                    <i class="fas fa-coins"></i>
                   </div>
                 </div>
-                <div class="col-10" data-toggle="modal" data-target="#missing" style="cursor: pointer;">
-                  <h6><b>Udeblivelse</b></h6>
+                <div class="col-10" data-toggle="modal" data-target="#prices" style="cursor: pointer;">
+                  <h6><b>Priser</b></h6>
                 </div>
               </div>
               <div class="row align-items-center">
                 <div class="col-2"></div>
                 <div class="col-10">
-                  <p>
-                    Se gebyrsats for udeblivelser.
-                  </p>
+                  <p>Overenskomstbaserede priser</p>
                 </div>
               </div>
             </div>
@@ -79,19 +77,21 @@
             </div>
             <div class="col-md-6">
               <div class="row align-items-center">
-                <div class="col-2" data-toggle="modal" data-target="#prices" style="cursor: pointer;">
+                <div class="col-2" data-toggle="modal" data-target="#missing" style="cursor: pointer;">
                   <div class="icon">
-                    <i class="fas fa-coins"></i>
+                    <i class="far fa-clock"></i>
                   </div>
                 </div>
-                <div class="col-10" data-toggle="modal" data-target="#prices" style="cursor: pointer;">
-                  <h6><b>Priser</b></h6>
+                <div class="col-10" data-toggle="modal" data-target="#missing" style="cursor: pointer;">
+                  <h6><b>Udeblivelse</b></h6>
                 </div>
               </div>
               <div class="row align-items-center">
                 <div class="col-2"></div>
                 <div class="col-10">
-                  <p>Overenskomstbaserede priser</p>
+                  <p>
+                    Se gebyrsats for udeblivelser.
+                  </p>
                 </div>
               </div>
             </div>

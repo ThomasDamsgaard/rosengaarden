@@ -1,4 +1,4 @@
-<div class="js-cookie-consent cookie-consent alert alert-secondary fixed-top">
+<div class="js-cookie-consent cookie-consent alert alert-secondary mb-5">
 
     <span class="cookie-consent__message">
         {!! trans('cookieConsent::texts.message') !!}

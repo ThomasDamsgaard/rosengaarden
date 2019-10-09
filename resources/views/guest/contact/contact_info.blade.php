@@ -20,22 +20,10 @@
                 Tagtækkervej 8, 7. sal.<br>
                 5230 Odense M
               </h5>
-              {{-- <p style="font-size: 0.7rem;">
-                Åbnings/telefontider
-                <br>
-                Mandag:
-                <br>
-                Tirsdag:
-                <br>
-                Onsdag:
-                <br>
-                Torsdag:
-                <br>
-                Fredag:
-              </p> --}}
-              <a data-toggle="modal" data-target="#contact_modal" style="cursor: pointer;">
+
+              {{-- <a data-toggle="modal" data-target="#contact_modal" style="cursor: pointer;">
                 Se Åbnings/telefontider og mail
-              </a>
+              </a> --}}
             </div>
             <div class="col-md-6 mb-3">
               <a target="_blank" href="https://www.google.com/maps/place/Tagtækkervej+8,+5230+Odense/@55.3846517,10.4205812,17z/data=!3m1!4b1!4m5!3m4!1s0x464d203e93c2c827:0x3fb88a9f4ab46ada!8m2!3d55.3846487!4d10.4227699">
@@ -44,7 +32,31 @@
               </a>
             </div>
           </div>
-          <hr class="d-none d-lg-block">
+          <hr>
+          <div class="row">
+            <div class="col-lg-6 text-center">
+              <h6><b>Åbnings/Telefontider:</b></h6>
+              <p style="margin-bottom: 0px">
+                Mandag 8.00 - 18.00</br>
+                Tirsdag 7.30 - 18.00</br>
+                Onsdag 7.30 - 17.00</br>
+                Torsdag 8.00 - 18.00</br>
+                Fredag 7.30 - 15.00
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <h6>
+                Telefon: 66 15 97 87
+              </h6>
+              <h6>
+                Email: info@rosengaardenkiropraktik.dk
+              </h6>
+              <p>
+                Med forbehold for ændringer ved kurser, under ferier og lignende.
+              </p>
+            </div>
+          </div>
+          <hr>
           <div class="row">
             <div class="col-lg-6">
               <h6><b>Børne- og handicapvenligt</b></h6>
@@ -68,7 +80,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="contact_modal" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+{{-- <div class="modal fade" id="contact_modal" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -103,7 +115,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> --}}
 @endsection
 
 @section('javascript')

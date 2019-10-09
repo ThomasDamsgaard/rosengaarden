@@ -86,10 +86,10 @@
               https://source.unsplash.com/TMgQMXoglsM/500x350
             @endslot --}}
             @slot('name')
-              Berit Abildgaard Jensen
+              Ann-Kristin Kristiansen
             @endslot
             @slot('profession')
-              Sekretær og massør
+              Fysioterapeut
             @endslot
           @endcomponent
           <!-- Team Member 5 -->
@@ -103,13 +103,81 @@
               https://source.unsplash.com/TMgQMXoglsM/500x350
             @endslot --}}
             @slot('name')
-              Ann-Kristin Kristiansen
+              Berit Abildgaard Jensen
             @endslot
             @slot('profession')
-              Fysioterapeut
+              Sekretær og massør
             @endslot
           @endcomponent
           <!-- Team Member 6 -->
+
+          <!-- Team Member 7 -->
+          @component('components.card')
+            @slot('id')
+              7
+            @endslot
+            {{-- @slot('img')
+              https://source.unsplash.com/TMgQMXoglsM/500x350
+            @endslot --}}
+            @slot('name')
+              Lise Sindberg
+            @endslot
+            @slot('profession')
+              Sekretær
+            @endslot
+          @endcomponent
+          <!-- Team Member 7 -->
+
+          <!-- Team Member 7 -->
+          @component('components.card')
+            @slot('id')
+              7
+            @endslot
+            {{-- @slot('img')
+              https://source.unsplash.com/TMgQMXoglsM/500x350
+            @endslot --}}
+            @slot('name')
+              Alice Jensen
+            @endslot
+            @slot('profession')
+              Sekretær
+            @endslot
+          @endcomponent
+          <!-- Team Member 7 -->
+
+          <!-- Team Member 8 -->
+          @component('components.card')
+            @slot('id')
+              8
+            @endslot
+            {{-- @slot('img')
+              https://source.unsplash.com/TMgQMXoglsM/500x350
+            @endslot --}}
+            @slot('name')
+              Ulrikka Brændgaard Nissen
+            @endslot
+            @slot('profession')
+              Sekretær
+            @endslot
+          @endcomponent
+          <!-- Team Member 8 -->
+
+          <!-- Team Member 9 -->
+          @component('components.card')
+            @slot('id')
+              9
+            @endslot
+            {{-- @slot('img')
+              https://source.unsplash.com/TMgQMXoglsM/500x350
+            @endslot --}}
+            @slot('name')
+              Amanda Traidl
+            @endslot
+            @slot('profession')
+              Sekretær
+            @endslot
+          @endcomponent
+          <!-- Team Member 9 -->
         </div>
 
       </div>

@@ -37,12 +37,13 @@
     <div id="app">
 
         @include('components.nav')
+        {{-- @include('cookieConsent::index') --}}
 
         <main>
             @yield('content')
         </main>
 
-        {{-- @include('cookieConsent::index') --}}
+
 
         @include('components.footer')
 

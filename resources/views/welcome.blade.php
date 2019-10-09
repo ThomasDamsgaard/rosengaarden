@@ -20,7 +20,7 @@
           <h1>Kiropraktik</h1>
         </div>
 
-        <p class="lead">Velkommen hos kiropraktorer og fysioterapeuter ved Rosengårdscenteret</p>
+        <p class="lead">Velkommen hos kiropraktorer ved Rosengårdscenteret</p>
         {{-- <a href="#content" class=" frontpage-btn btn btn-light" role="button"><i style="color: black;" class="fas fa-arrow-circle-down fa-lg"></i></a> --}}
 
       </div>
