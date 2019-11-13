@@ -24,7 +24,7 @@
         {{-- <a href="#content" class=" frontpage-btn btn btn-light" role="button"><i style="color: black;" class="fas fa-arrow-circle-down fa-lg"></i></a> --}}
 
 
-              <div class="container">
+              {{-- <div class="container">
                 <div class="row">
                   <div class="col-6">
                     <i class="fas fa-phone" style="color: #636b6f;"></i> 66 15 97 87
@@ -33,7 +33,7 @@
                     <i class="fas fa-map-marked-alt" style="color: #636b6f;"></i> Tagtækkervej 8, 7.sal 5230 Odense M
                   </div>
                 </div>
-              </div>
+              </div> --}}
       </div>
     </div>
   </div>
