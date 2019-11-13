@@ -123,7 +123,7 @@
               Lise Sindberg
             @endslot
             @slot('profession')
-              Sekretær
+              Sekretær og Bogholder
             @endslot
           @endcomponent
           <!-- Team Member 7 -->
@@ -174,7 +174,7 @@
               Amanda Traidl
             @endslot
             @slot('profession')
-              Sekretær
+              Studentermedhjælper
             @endslot
           @endcomponent
           <!-- Team Member 9 -->
@@ -248,25 +248,6 @@
       5
     @endslot
     @slot('name')
-      Berit Abildgaard Jensen
-    @endslot
-
-    <p>Lægeeksamineret massør 2017</p>
-    <p>I gang med den sundhedsfaglige grunduddannelse, for at blive RAB godkendt massør.</p>
-    <p>Har kurser indenfor blandt andet:</p>
-    <ul>
-      <li>Skadeterapi</li>
-      <li>Muskelterapi</li>
-      <li>Muskulær Zoneterapi</li>
-      <li>Cupping</li>
-    </ul>
-  @endcomponent
-
-  @component('components.staff_modal')
-    @slot('id')
-      6
-    @endslot
-    @slot('name')
       Ann-Kristin Kristiansen
     @endslot
 
@@ -287,5 +268,24 @@
       <li>Individuel/personlig træning</li>
     </ul>
   @endcomponent
+
+    @component('components.staff_modal')
+      @slot('id')
+        6
+      @endslot
+      @slot('name')
+        Berit Abildgaard Jensen
+      @endslot
+
+      <p>Lægeeksamineret massør 2017</p>
+      <p>I gang med den sundhedsfaglige grunduddannelse, for at blive RAB godkendt massør.</p>
+      <p>Har kurser indenfor blandt andet:</p>
+      <ul>
+        <li>Skadeterapi</li>
+        <li>Muskelterapi</li>
+        <li>Muskulær Zoneterapi</li>
+        <li>Cupping</li>
+      </ul>
+    @endcomponent
 
 @endsection

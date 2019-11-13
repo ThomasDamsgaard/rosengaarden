@@ -42,9 +42,9 @@
     @yield('css')
 </head>
 <body>
-    <div style="height: 2px; background-color: #C75B3A">
-    </div>
+    <div style="height: 2px; background-color: #C75B3A"></div>
     <div id="app">
+
 
         @include('components.nav')
         {{-- @include('cookieConsent::index') --}}
@@ -55,7 +55,7 @@
 
 
 
-        @include('components.footer')
+        {{-- @include('components.footer') --}}
 
         @include('components.overlay')
 

@@ -63,7 +63,7 @@
               <p>
                 Bemærk at der er handicapvenlig adgang, samt at der både er mulighed for at benytte elevator og trapper for at nå klinikken.
                 <br>
-                Der er mulighed for at benytte handicapvenligt toilet og vi har puslerum til vore små patienter.
+                Der er mulighed for at benytte handicapvenligt toilet og vi har puslerum til vores små patienter.
               </p>
             </div>
             <div class="col-lg-6">

@@ -59,7 +59,7 @@
               </div>
             </div>
             <p>
-              Se <a href="http://www.kiropraktorguide.dk">kiropraktorguide.dk</a> for at læse mere om symptomer, årsager og gode råd.
+              Se <a href="http://www.kiropraktorguide.dk" target="_blank">kiropraktorguide.dk</a> for at læse mere om symptomer, årsager og gode råd.
             </p>
           </div>
         </div>
