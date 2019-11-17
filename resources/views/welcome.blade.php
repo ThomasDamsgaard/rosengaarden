@@ -20,20 +20,46 @@
           <h1>Kiropraktik</h1>
         </div>
 
-        <p class="lead">Velkommen hos kiropraktorerne ved Rosengårdcentret</p>
+        <p class="lead mb-5">Velkommen hos kiropraktorerne ved Rosengårdcentret</p>
         {{-- <a href="#content" class=" frontpage-btn btn btn-light" role="button"><i style="color: black;" class="fas fa-arrow-circle-down fa-lg"></i></a> --}}
 
+        <div class="col-12">
+            <div class="row d-md-none">
+              <div class="col-md-6 mb-3 mb-md-0">
+                @switch(Carbon\Carbon::now()->dayOfWeek)
+                  @case(0)
+                    Telefontid imorgen fra kl 8.00
+                    @break;
+                  @case(1)
+                    Telefontid kl 8.00 - 18.00
+                    @break;
+                  @case(2)
+                    Telefontid kl 7.30 - 18.00
+                    @break;
+                  @case(3)
+                    Telefontid kl 7.30 - 17.30
+                    @break;
+                  @case(4)
+                    Telefontid kl 8.00 - 18.00
+                    @break;
+                  @case(5)
+                    Telefontid kl 7.30 - 15.00
+                    @break;
+                  @case(6)
+                    Telefontid mandag fra kl 8.00
+                    @break;
+                @endswitch
+                <br>
+                <i class="fas fa-phone" style="color: #636b6f;"></i> 66 15 97 87
+              </div>
+              <div class="col-md-6">
+                <i class="fas fa-map-marked-alt" style="color: #636b6f;"></i> Tagtækkervej 8, 7.sal<br>
+                5230 Odense M
+              </div>
+            </div>
+        </div>
 
-              {{-- <div class="container">
-                <div class="row">
-                  <div class="col-6">
-                    <i class="fas fa-phone" style="color: #636b6f;"></i> 66 15 97 87
-                  </div>
-                  <div class="col-6">
-                    <i class="fas fa-map-marked-alt" style="color: #636b6f;"></i> Tagtækkervej 8, 7.sal 5230 Odense M
-                  </div>
-                </div>
-              </div> --}}
+
       </div>
     </div>
   </div>

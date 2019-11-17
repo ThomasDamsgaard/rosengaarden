@@ -200,7 +200,7 @@
       Uddannet ART full body level 1 2017<br>
       Deltager løbende i efteruddannelse
     </p>
-    Besøg Mathilde Christensen på <a href="#">LinkedIn</a>
+    Besøg Mathilde Christensen på <a href="https://dk.linkedin.com/in/mathilde-christensen-9217a4175">LinkedIn</a>
 
   @endcomponent
 
@@ -231,7 +231,7 @@
     <p>Uddannet ved Syddansk Universitet Odense 2003</p>
     <p>Ekstern lektor ved Syddansk Universitet Odense 2005-2016</p>
     <p>Deltager løbende i efteruddannelse</p>
-    <p>Besøg John Sandsberg på <a href="#">LinkedIn</a></p>
+    <p>Besøg John Sandsberg på <a href="https://dk.linkedin.com/in/john-sandsberg-3b90013a">LinkedIn</a></p>
   @endcomponent
 
   @component('components.staff_modal')

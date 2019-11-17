@@ -63,9 +63,37 @@
                 <!-- Authentication Links -->
                 @guest
 
-                    {{-- <li class="nav-item">
-                        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                    </li> --}}
+                    <li class="nav-item">
+                        <a class="">
+                        <i class="fas fa-phone" style="color: #636b6f;"></i> 66 15 97 87</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=""><u>
+                          @switch(Carbon\Carbon::now()->dayOfWeek)
+                            @case(0)
+                              Telefontid imorgen fra kl 8.00
+                              @break;
+                            @case(1)
+                              Telefontid kl 8.00 - 18.00
+                              @break;
+                            @case(2)
+                              Telefontid kl 7.30 - 18.00
+                              @break;
+                            @case(3)
+                              Telefontid kl 7.30 - 17.30
+                              @break;
+                            @case(4)
+                              Telefontid kl 8.00 - 18.00
+                              @break;
+                            @case(5)
+                              Telefontid kl 7.30 - 15.00
+                              @break;
+                            @case(6)
+                              Telefontid mandag fra kl 8.00
+                              @break;
+                          @endswitch
+                        </u></a>
+                    </li>
                     {{-- @if (Route::has('register'))
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>

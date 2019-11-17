@@ -5,14 +5,41 @@ namespace App\Http\Controllers\Guest;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Blog;
+use Carbon\Carbon;
 
 class GuestController extends Controller
 {
     public function frontpage()
     {
-        $posts = Blog::orderBy('created_at', 'desc')->take(3)->get();
+        $date = Carbon::now();
+        $message = '';
+
+        // dd($date->dayOfWeek);
+        // switch ($date->dayOfWeek) {
+        //   case 0:
+        //     $message = 'Telefontid imorgen fra kl 8.00';
+        //     break;
+        //   case 1:
+        //     $message = 'Telefontid kl 8.00 - 18.00';
+        //     break;
+        //   case 2:
+        //     $message = 'Telefontid kl 7.30 - 18.00';
+        //     break;
+        //   case 3:
+        //     $message = 'Telefontid kl 7.30 - 17.30';
+        //     break;
+        //   case 4:
+        //     $message = 'Telefontid kl 8.00 - 18.00';
+        //     break;
+        //   case 5:
+        //     $message = 'Telefontid kl 7.30 - 15.00';
+        //     break;
+        //   case 6:
+        //     $message = 'Telefontid mandag fra kl 8.00';
+        //     break;
+        // }
         // dd($posts);
-        return view('welcome', compact('posts'));
+        return view('welcome', compact('message'));
     }
 
     public function symptoms()
