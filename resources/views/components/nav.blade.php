@@ -74,19 +74,19 @@
                               Telefontid imorgen fra kl 8.00
                               @break;
                             @case(1)
-                              Telefontid kl 8.00 - 18.00
+                              Telefontid idag kl 8.00 - 18.00
                               @break;
                             @case(2)
-                              Telefontid kl 7.30 - 18.00
+                              Telefontid idag kl 7.30 - 18.00
                               @break;
                             @case(3)
-                              Telefontid kl 7.30 - 17.30
+                              Telefontid idag kl 7.30 - 17.30
                               @break;
                             @case(4)
-                              Telefontid kl 8.00 - 18.00
+                              Telefontid idag kl 8.00 - 18.00
                               @break;
                             @case(5)
-                              Telefontid kl 7.30 - 15.00
+                              Telefontid idag kl 7.30 - 15.00
                               @break;
                             @case(6)
                               Telefontid mandag fra kl 8.00
