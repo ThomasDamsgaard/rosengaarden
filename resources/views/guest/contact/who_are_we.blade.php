@@ -14,9 +14,9 @@
             @slot('id')
               1
             @endslot
-            {{-- @slot('img')
-              https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot --}}
+            @slot('img')
+              {{ asset('img/staff/mathilde3.jpg')}}
+            @endslot
             @slot('name')
               Mathilde Christensen
             @endslot
@@ -31,9 +31,9 @@
             @slot('id')
               2
             @endslot
-            {{-- @slot('img')
-              https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot --}}
+            @slot('img')
+              {{ asset('img/staff/grethe3.jpg')}}
+            @endslot
             @slot('name')
               Grethe Thøstesen
             @endslot
@@ -48,9 +48,9 @@
             @slot('id')
               3
             @endslot
-            {{-- @slot('img')
-              https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot --}}
+            @slot('img')
+              {{ asset('img/staff/john3.jpg')}}
+            @endslot
             @slot('name')
               John Sandsberg
             @endslot
@@ -65,9 +65,9 @@
             @slot('id')
               4
             @endslot
-            {{-- @slot('img')
-              https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot --}}
+            @slot('img')
+              {{ asset('img/staff/thomas3.jpg')}}
+            @endslot
             @slot('name')
               Thomas Damsgaard
             @endslot
@@ -77,31 +77,16 @@
           @endcomponent
           <!-- Team Member 4 -->
 
-          <!-- Team Member 5 -->
-          @component('components.card')
-            @slot('id')
-              5
-            @endslot
-            {{-- @slot('img')
-              https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot --}}
-            @slot('name')
-              Ann-Kristin Kristiansen
-            @endslot
-            @slot('profession')
-              Fysioterapeut
-            @endslot
-          @endcomponent
-          <!-- Team Member 5 -->
+
 
           <!-- Team Member 6 -->
           @component('components.card')
             @slot('id')
               6
             @endslot
-            {{-- @slot('img')
-              https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot --}}
+            @slot('img')
+              {{ asset('img/staff/berit3.jpg')}}
+            @endslot
             @slot('name')
               Berit Abildgaard Jensen
             @endslot
@@ -116,9 +101,9 @@
             @slot('id')
               7
             @endslot
-            {{-- @slot('img')
-              https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot --}}
+            @slot('img')
+              {{ asset('img/staff/lise3.jpg')}}
+            @endslot
             @slot('name')
               Lise Sindberg
             @endslot
@@ -133,9 +118,9 @@
             @slot('id')
               7
             @endslot
-            {{-- @slot('img')
-              https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot --}}
+            @slot('img')
+              {{ asset('img/staff/alice3.jpg')}}
+            @endslot
             @slot('name')
               Alice Jensen
             @endslot
@@ -150,9 +135,9 @@
             @slot('id')
               8
             @endslot
-            {{-- @slot('img')
-              https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot --}}
+            @slot('img')
+              {{ asset('img/staff/ulrikka3.jpg')}}
+            @endslot
             @slot('name')
               Ulrikka Brændgaard Nissen
             @endslot
@@ -167,9 +152,9 @@
             @slot('id')
               9
             @endslot
-            {{-- @slot('img')
-              https://source.unsplash.com/TMgQMXoglsM/500x350
-            @endslot --}}
+            @slot('img')
+              {{ asset('img/staff/amanda3.jpg')}}
+            @endslot
             @slot('name')
               Amanda Traidl
             @endslot
@@ -178,6 +163,23 @@
             @endslot
           @endcomponent
           <!-- Team Member 9 -->
+
+          <!-- Team Member 5 -->
+          @component('components.card')
+            @slot('id')
+              5
+            @endslot
+            @slot('img')
+              {{ asset('img/staff/annkristin1.jpg')}}
+            @endslot
+            @slot('name')
+              Ann-Kristin Kristiansen
+            @endslot
+            @slot('profession')
+              Fysioterapeut
+            @endslot
+          @endcomponent
+          <!-- Team Member 5 -->
         </div>
 
       </div>
