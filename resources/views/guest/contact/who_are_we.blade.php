@@ -197,11 +197,9 @@
     @endslot
 
     <p>Kiropraktor</p>
-    <p>
-      Uddannet ved Syddansk Universitet i Odense 2011<br>
-      Uddannet ART full body level 1 2017<br>
-      Deltager løbende i efteruddannelse
-    </p>
+    <p>Uddannet ved Syddansk Universitet i Odense 2011.</p>
+    <p>Uddannet ART full body level 1 2017.</p>
+    <p>Deltager løbende i efteruddannelse.</p>
     Besøg Mathilde Christensen på <a href="https://dk.linkedin.com/in/mathilde-christensen-9217a4175">LinkedIn</a>
 
   @endcomponent
@@ -214,12 +212,12 @@
       Grethe Thøstesen
     @endslot
 
-    <p>Kiropraktor og børnekiropraktor</p>
-    <p>Uddannet ved Palmer College of Chiropractic, USA </p>
-    <p>Ekstern lærer ved Syddansk Universitet Odense</p>
-    <p>MSc APP Chiropractic Paediatrics fra Bournemouth Universitetet England 2012</p>
-    <p>Medlem af Sundhedsvæsenets Disciplinærnævn. </p>
-    <p>Deltager løbende i efteruddannelse</p>
+    <p>Kiropraktor og børnekiropraktor.</p>
+    <p>Uddannet ved Palmer College of Chiropractic, USA.</p>
+    <p>Ekstern lærer ved Syddansk Universitet Odense.</p>
+    <p>MSc APP Chiropractic Paediatrics fra Bournemouth Universitetet England 2012.</p>
+    <p>Medlem af Sundhedsvæsenets Disciplinærnævn.</p>
+    <p>Deltager løbende i efteruddannelse.</p>
   @endcomponent
 
   @component('components.staff_modal')
@@ -230,9 +228,9 @@
       John Sandsberg
     @endslot
 
-    <p>Uddannet ved Syddansk Universitet Odense 2003</p>
-    <p>Ekstern lektor ved Syddansk Universitet Odense 2005-2016</p>
-    <p>Deltager løbende i efteruddannelse</p>
+    <p>Uddannet ved Syddansk Universitet Odense 2003.</p>
+    <p>Ekstern lektor ved Syddansk Universitet Odense 2005-2016.</p>
+    <p>Deltager løbende i efteruddannelse.</p>
     <p>Besøg John Sandsberg på <a href="https://dk.linkedin.com/in/john-sandsberg-3b90013a">LinkedIn</a></p>
   @endcomponent
 
@@ -243,6 +241,12 @@
     @slot('name')
       Thomas Damsgaard
     @endslot
+
+    <p>Uddannet ved Syddansk Universitet Odense 2019.</p>
+    <p>Bacheloruddannelse i Idræt og Sundhed fra Syddansk Universitet i 2014.</p>
+    <p>Tidligere fysisk træner i Odense Boldklub.</p>
+    <p>Deltager løbende i efteruddannelse.</p>
+
   @endcomponent
 
   @component('components.staff_modal')
