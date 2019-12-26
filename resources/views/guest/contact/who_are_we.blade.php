@@ -15,7 +15,7 @@
               1
             @endslot
             @slot('img')
-              {{ asset('img/staff/mathilde3.jpg')}}
+              {{ asset('img/staff/mathilde.jpg')}}
             @endslot
             @slot('name')
               Mathilde Christensen
@@ -32,7 +32,7 @@
               2
             @endslot
             @slot('img')
-              {{ asset('img/staff/grethe3.jpg')}}
+              {{ asset('img/staff/grethe.jpg')}}
             @endslot
             @slot('name')
               Grethe Thøstesen
@@ -49,7 +49,7 @@
               3
             @endslot
             @slot('img')
-              {{ asset('img/staff/john3.jpg')}}
+              {{ asset('img/staff/john.jpg')}}
             @endslot
             @slot('name')
               John Sandsberg
@@ -66,7 +66,7 @@
               4
             @endslot
             @slot('img')
-              {{ asset('img/staff/thomas3.jpg')}}
+              {{ asset('img/staff/thomas.jpg')}}
             @endslot
             @slot('name')
               Thomas Damsgaard
@@ -85,10 +85,10 @@
               6
             @endslot
             @slot('img')
-              {{ asset('img/staff/berit3.jpg')}}
+              {{ asset('img/staff/berit.jpg')}}
             @endslot
             @slot('name')
-              Berit Abildgaard Jensen
+              Berit Jensen
             @endslot
             @slot('profession')
               Sekretær og massør
@@ -102,7 +102,7 @@
               7
             @endslot
             @slot('img')
-              {{ asset('img/staff/lise3.jpg')}}
+              {{ asset('img/staff/lise.jpg')}}
             @endslot
             @slot('name')
               Lise Sindberg
@@ -119,7 +119,7 @@
               7
             @endslot
             @slot('img')
-              {{ asset('img/staff/alice3.jpg')}}
+              {{ asset('img/staff/alice.jpg')}}
             @endslot
             @slot('name')
               Alice Jensen
@@ -136,10 +136,10 @@
               8
             @endslot
             @slot('img')
-              {{ asset('img/staff/ulrikka3.jpg')}}
+              {{ asset('img/staff/ulrikka.jpg')}}
             @endslot
             @slot('name')
-              Ulrikka Brændgaard Nissen
+              Ulrikka Nissen
             @endslot
             @slot('profession')
               Sekretær
@@ -153,7 +153,7 @@
               9
             @endslot
             @slot('img')
-              {{ asset('img/staff/amanda3.jpg')}}
+              {{ asset('img/staff/amanda.jpg')}}
             @endslot
             @slot('name')
               Amanda Traidl
@@ -170,7 +170,7 @@
               5
             @endslot
             @slot('img')
-              {{ asset('img/staff/annkristin1.jpg')}}
+              {{ asset('img/staff/annkristin.jpg')}}
             @endslot
             @slot('name')
               Ann-Kristin Kristiansen

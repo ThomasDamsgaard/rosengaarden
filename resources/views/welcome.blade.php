@@ -14,13 +14,17 @@
   <div class="container h-100">
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
-        <div class="col-sm-4 offset-sm-4">
-          <h4 class="font-weight-light" style="margin: 0px;">Rosengården</h4>
+        <div class="col-sm-8 offset-sm-2 mb-3 mb-lg-0">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="1120" height="630" src="https://www.youtube.com/embed/QDzXGLbKNC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </div>
+          {{-- <h4 class="font-weight-light" style="margin: 0px;">Rosengården</h4>
           <hr style="background-color: #C75B3A; height: 1px; margin: 0.25rem;">
-          <h1>Kiropraktik</h1>
+          <h1>Kiropraktik</h1> --}}
         </div>
 
-        <p class="lead mb-5">Velkommen hos kiropraktorerne ved Rosengårdcentret</p>
+        {{-- <p class="lead mb-5">Velkommen hos kiropraktorerne ved Rosengårdcentret</p> --}}
         {{-- <a href="#content" class=" frontpage-btn btn btn-light" role="button"><i style="color: black;" class="fas fa-arrow-circle-down fa-lg"></i></a> --}}
 
         <div class="col-12">
@@ -69,14 +73,12 @@
 
     <div class="col-md-8 offset-md-2 mb-10 mb-lg-3">
       <div class="card" style="margin-top: -71px;">
-        <div class="mouse-scroll d-none d-lg-block" style="margin-top: -90px;">
-      		{{-- <div class="mouse">
-      			<div class="wheel"></div>
-      		</div> --}}
+        {{-- <div class="mouse-scroll d-none d-lg-block" style="margin-top: -90px;">
+
       		<div>
       			<span class="m-scroll-arrows arrow"></span>
       		</div>
-        </div>
+        </div> --}}
 
         <p class="mt-3 mb-0 lead text-center">
           Vores mål er at hjælpe dig med at optimere dit helbred og velbefindende.
