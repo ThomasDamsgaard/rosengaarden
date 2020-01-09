@@ -36,7 +36,7 @@
                   </a>
                 </div>
               </li>
-              <li class="nav-item dropdown">
+              {{-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="contact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Kontakt
                 </a>
@@ -49,6 +49,12 @@
                     Personale
                   </a>
                 </div>
+              </li> --}}
+              <li class="nav-item">
+                  <a class="nav-link" href="{{ route('who') }}">Personale</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{{ route('contact') }}">Kontakt</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="{{ route('info') }}">Info</a>
