@@ -63,7 +63,7 @@
       </div>
     </div>
   </div>
-  <div id="bg-image" class="background cover active" style="background-image: url({{ asset('img/bg4.jpg') }});"></div>
+  <div id="bg-image" class="background cover active" style="background-image: url({{ asset('img/bg4.JPG') }});"></div>
   {{-- <div class="background cover" style="background-image: url({{ asset('img/bg2.jpg') }});"></div> --}}
   {{-- <div class="background cover" style="background-image: url({{ asset('img/bg3.jpg') }});"></div> --}}
   <div class="background-overlay"></div>
@@ -107,26 +107,25 @@
 @section('javascript')
 
   <script type="text/javascript">
-  (function() {
-    'use strict'
-    const cats = [
-      "{{ asset('img/bg2.jpg') }}",
-      "https://www.petfinder.com/wp-content/uploads/2013/09/cat-black-superstitious-fcs-cat-myths-162286659.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_March_2010-1.jpg"
-    ]
-
-    const node = document.getElementById("bg-image");
-
-    const cycleImages = (images, container, step) => {
-        images.forEach((image, index) => (
-        setTimeout(() => {
-          console.log(container);
-
-            container.style.backgroundImage = `url(${image})`
-        }, step * (index + 1))
-      ))
-      setTimeout(() => cycleImages(images, container, step), step * images.length)
-    }
+  // (function() {
+  //   'use strict'
+  //   const cats = [
+  //     "https://www.petfinder.com/wp-content/uploads/2013/09/cat-black-superstitious-fcs-cat-myths-162286659.jpg",
+  //     "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_March_2010-1.jpg"
+  //   ]
+  //
+  //   const node = document.getElementById("bg-image");
+  //
+  //   const cycleImages = (images, container, step) => {
+  //       images.forEach((image, index) => (
+  //       setTimeout(() => {
+  //         console.log(container);
+  //
+  //           container.style.backgroundImage = `url(${image})`
+  //       }, step * (index + 1))
+  //     ))
+  //     setTimeout(() => cycleImages(images, container, step), step * images.length)
+  //   }
 
     // cycleImages(cats, node, 5000);
 
@@ -148,7 +147,7 @@
     //   mobileNav.classList.toggle('active');
     //   overlay.classList.toggle('open');
     // });
-  })();
+  // })();
   </script>
 
 @endsection
