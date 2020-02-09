@@ -4,24 +4,20 @@
 
 @section('css')
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<style media="screen">
-
-</style>
 @endsection
 
 @section('content')
 <header class="masthead">
   <div class="container h-100">
     <div class="row h-100 align-items-center">
-      <div class="col-12 text-center">
+      <div class="col-12 text-center" style="z-index: 300;">
         <div class="col-sm-8 offset-sm-2 mb-3 mb-lg-0">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="1120" height="630" src="https://www.youtube.com/embed/QDzXGLbKNC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-          </div>
-          {{-- <h4 class="font-weight-light" style="margin: 0px;">Rosengården</h4>
+          <h4 style="color: #fff;" class="font-weight-light" style="margin: 0px;">Rosengården</h4>
           <hr style="background-color: #C75B3A; height: 1px; margin: 0.25rem;">
-          <h1>Kiropraktik</h1> --}}
+          <h1 style="color: #fff;">Kiropraktik</h1>
+          <p style="color: #fff;">Du finder os nemt på Tagtækkervej 8, lige ved Rosengårdcenterets blå indgang.</p>
+
         </div>
 
         {{-- <p class="lead mb-5">Velkommen hos kiropraktorerne ved Rosengårdcentret</p> --}}
@@ -67,18 +63,17 @@
       </div>
     </div>
   </div>
+  <div id="bg-image" class="background cover active" style="background-image: url({{ asset('img/bg4.jpg') }});"></div>
+  {{-- <div class="background cover" style="background-image: url({{ asset('img/bg2.jpg') }});"></div> --}}
+  {{-- <div class="background cover" style="background-image: url({{ asset('img/bg3.jpg') }});"></div> --}}
+  <div class="background-overlay"></div>
 </header>
 <div class="container" id="content">
   <div class="row mb-md-5 mb-3">
 
     <div class="col-md-8 offset-md-2 mb-10 mb-lg-3">
-      <div class="card" style="margin-top: -71px;">
-        {{-- <div class="mouse-scroll d-none d-lg-block" style="margin-top: -90px;">
-
-      		<div>
-      			<span class="m-scroll-arrows arrow"></span>
-      		</div>
-        </div> --}}
+      {{-- <div class="card"> --}}
+      <div class="card" style="margin-top: -71px; z-index: 300;">
 
         <p class="mt-3 mb-0 lead text-center">
           Vores mål er at hjælpe dig med at optimere dit helbred og velbefindende.
@@ -114,17 +109,38 @@
   <script type="text/javascript">
   (function() {
     'use strict'
-    window.onscroll = function() {
-      const navbar = document.querySelector('.fixed-top');
-      const footer = document.querySelector('.fixed-bottom');
-      if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
-        navbar.classList.add('scrolled');
-        footer.classList.add('scrolled')
-      } else {
-        navbar.classList.remove('scrolled');
-        footer.classList.remove('scrolled');
-      }
+    const cats = [
+      "{{ asset('img/bg2.jpg') }}",
+      "https://www.petfinder.com/wp-content/uploads/2013/09/cat-black-superstitious-fcs-cat-myths-162286659.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_March_2010-1.jpg"
+    ]
+
+    const node = document.getElementById("bg-image");
+
+    const cycleImages = (images, container, step) => {
+        images.forEach((image, index) => (
+        setTimeout(() => {
+          console.log(container);
+
+            container.style.backgroundImage = `url(${image})`
+        }, step * (index + 1))
+      ))
+      setTimeout(() => cycleImages(images, container, step), step * images.length)
     }
+
+    // cycleImages(cats, node, 5000);
+
+    // window.onscroll = function() {
+    //   const navbar = document.querySelector('.fixed-top');
+    //   // const footer = document.querySelector('.fixed-bottom');
+    //   if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
+    //     navbar.classList.add('scrolled');
+    //     // footer.classList.add('scrolled')
+    //   } else {
+    //     navbar.classList.remove('scrolled');
+    //     // footer.classList.remove('scrolled');
+    //   }
+    // }
 
     // const mobileNav = document.querySelector('.button_container');
     // const overlay = document.querySelector('#overlay');

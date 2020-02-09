@@ -12,21 +12,20 @@
 }
 
 
-.m-scroll-arrows
-{
-display: block;
-width: 5px;
-height: 5px;
--ms-transform: rotate(45deg); /* IE 9 */
--webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-transform: rotate(45deg);
+.m-scroll-arrows{
+  display: block;
+  width: 5px;
+  height: 5px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
 
-border-right: 1px solid #636b6f;
-border-bottom: 1px solid #636b6f;
-margin: 0 0 3px 4px;
+  border-right: 1px solid #636b6f;
+  border-bottom: 1px solid #636b6f;
+  margin: 0 0 3px 4px;
 
-width: 16px;
-height: 16px;
+  width: 16px;
+  height: 16px;
 }
 
 

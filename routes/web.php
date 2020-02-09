@@ -19,8 +19,8 @@ Route::get('/fysioterapi-og-massage', 'Guest\GuestController@physiotherapy')->na
 Route::get('/kontakt', 'Guest\GuestController@contact')->name('contact');
 Route::get('/personale', 'Guest\GuestController@who')->name('who');
 Route::get('/information', 'Guest\GuestController@info')->name('info');
-// Route::get('/links', 'Guest\GuestController@links')->name('links');
-// Route::get('/udeblivelse', 'Guest\GuestController@notShowingUp')->name('not.showing.up');
+Route::get('/priser', 'Guest\GuestController@prices')->name('prices');
+Route::get('/video', 'Guest\GuestController@video')->name('video');
 Route::get('/blog', 'Blog\BlogController@index')->name('blog');
 
 //Auth routes

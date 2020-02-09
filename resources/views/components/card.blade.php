@@ -3,7 +3,8 @@
     <img src="{{ $img }}" class="card-img-top img-fluid" alt="">
     <div class="card-body text-center">
       <h5 class="card-title mb-0">{{ $name }}</h5>
-      <div class="card-text text-black-50">{{ $profession }}</div>
+      <div class="card-text text-black-50 mb-2">{{ $profession }}</div>
+      <button type="button" class="btn btn-sm btn-rosengaarden">Læs mere</button>
     </div>
   </div>
 </div>

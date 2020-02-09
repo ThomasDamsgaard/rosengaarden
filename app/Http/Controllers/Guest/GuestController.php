@@ -42,13 +42,13 @@ class GuestController extends Controller
         return view('guest.info.info');
     }
 
-    public function links()
+    public function video()
     {
-        return view('guest.info.links');
+        return view('guest.video');
     }
 
-    public function notShowingUp()
+    public function prices()
     {
-        return view('guest.info.not_showing_up');
+        return view('guest.prices');
     }
 }

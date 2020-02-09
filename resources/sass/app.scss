@@ -20,6 +20,7 @@
 @import "components/images";
 @import "components/symptoms_list";
 @import "components/frontpage_mouse_scroll";
+@import "components/background";
 
 #app {
   flex: 1 0 auto;
@@ -44,4 +45,10 @@ h6 {
 
 .mb-10 {
   margin-bottom: 8rem;
+}
+
+.btn-rosengaarden {
+  color: #fff;
+  background-color: #C75B3A;
+  border-color: #C75B3A;
 }

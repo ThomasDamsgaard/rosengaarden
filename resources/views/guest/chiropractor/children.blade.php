@@ -112,27 +112,15 @@
           </div>
 
           <div class="row">
-            <div class="col-md-6 mb-3">
-              <div class="row align-items-center">
-                <div class="col-2" data-toggle="modal" data-target="#kissi" style="cursor: pointer;">
-                  <div class="icon">
-                    <i class="fas fa-child"></i>
-                  </div>
-                </div>
-                <div class="col-10" data-toggle="modal" data-target="#kissi" style="cursor: pointer;">
-                  <h6><b>KISS I</b></h6>
-                </div>
-              </div>
-            </div>
             <div class="col-md-6">
               <div class="row align-items-center">
-                <div class="col-2" data-toggle="modal" data-target="#kissii" style="cursor: pointer;">
+                <div class="col-2" data-toggle="modal" data-target="#skaev" style="cursor: pointer;">
                   <div class="icon">
                     <i class="fas fa-child"></i>
                   </div>
                 </div>
-                <div class="col-10" data-toggle="modal" data-target="#kissii" style="cursor: pointer;">
-                  <h6><b>KISS II</b></h6>
+                <div class="col-10" data-toggle="modal" data-target="#skaev" style="cursor: pointer;">
+                  <h6><b>Skævt Baghoved</b></h6>
                 </div>
               </div>
             </div>
@@ -259,8 +247,9 @@
     kidd
   @endslot
   @slot('title')
-    KIDD Syndrom
+    KIDD og KISS Syndrom
   @endslot
+  <h4>KIDD</h4>
   <p>
     KIDD syndrom på engelsk kaldet KISS induceret Dysgnosia and Dyspraxia, som omsat til dansk  betyder Kranie-nakkeleds induceret DYSPRAKSI (vanskelighed ved at udføre kombinerede muskelbevægelser/ problemer med at automatisere bevægelser/ klodsethed) og DYSGNOSI (nedsat evne til at bearbejde sanseindtryk).
   </p>
@@ -279,32 +268,62 @@
   <p>
     KIDD syndrom er som KISS syndrom en betegnelse som fortrinsvis bruges i Tyskland og Norge.
   </p>
-@endcomponent
-
-@component('components.modal')
-  @slot('id')
-    kissi
-  @endslot
-  @slot('title')
-    KISS I
-  @endslot
+  <h4>KISS I</h4>
   <p>
     Er en asymmetri hvor barnet favoriserer, at se til den ene side og samtidig laver det en stor C kurve med kroppen, både når det sidder og ligger. Ofte har det, foruden det skæve baghoved og C kurven af kroppen, problemer med at ligge på maven, problemer med at falde til ro og problemer med at finde ro til at amme.
   </p>
-@endcomponent
-
-@component('components.modal')
-  @slot('id')
-    kissii
-  @endslot
-  @slot('title')
-    KISS II
-  @endslot
+  <h4>KISS II</h4>
   <p>
     Her favoriserer barnet ofte at bøje nakken bagover, det kan ofte sagtens ligge på maven, men kan ikke ligge i arm, og vil have svært ved at kigge på mor når det ammer, det vrider sig bagover, og har som KISS I ofte uro, og kan være både overspændt og underspændt i kroppen.
   </p>
   <p>
     Hos os bliver barnet grundigt undersøgt, og hvis vi finder en funktionsforstyrrelse af nakken, kan vi hjælpe. Barnet bliver behandlet med teknikker, som er specielt designet til babyer, med lette tryk.
   </p>
+@endcomponent
+
+@component('components.modal')
+  @slot('id')
+    skaev
+  @endslot
+  @slot('title')
+    Skævt Baghoved
+  @endslot
+  <p>
+    Skæve baghoveder er blevet et tiltagende problem siden 1992, hvor man indførte nye retningslinjer som betød, at spædbørn kun måtte sove på ryggen, for at undgå vuggedød. Man har på den måde nedsat antallet af tilfælde med 40 %. Til gengæld har vi fået flere tilfælde med skæve/flade baghoveder. Hvis barnet har en favorit side, er kraniet så blødt, at det hurtigt bliver fladt på den side det drejer hovedet til.
+  </p>
+  <p>
+    Der kan være flere grunde til at et barn favoriserer en side, lige fra at det bliver ensidigt stimuleret, f. eks af lyset. Det kan være en medfødt kort halsmuskel eller andre medfødte problematikker. Men ofte er årsagen en mekanisk nedsat bevægelse i nakken, som kan løsnes af en kiropraktor.
+  </p>
+  <p>
+    Når barnet kommer på klinikken bliver det grundigt undersøgt for at finde årsagen til den nedsatte bevægelse. Viser det sig at der er nedsat bevægelse i nakken, har vi mulighed for at afhjælpe problemet. Ofte er det i samarbejde med en børneergo- eller fysioterapeut.
+  </p>
+  <p>
+    Selve behandlingen er designet til spædbørn, og udføres med små tryk.
+  </p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UzNI-eH8U48" allowfullscreen></iframe>
+  </div>
+  <h5 class="mt-3">Artikler</h5>
+  <ul>
+    <li>
+      <a href="#">Artikel af Grethe Thøstesen: Lejringsbetinget plagiocephalia - et moderne dilemma. Kiropraktoren Oktober 2013</a>
+    </li>
+    <li>
+      Dudek- Shriber, L. and Zelazny, s., 2007. "The effect of prone positioning on the quality and acquisition of developmental milestone in four-month-old-infants." Pediatric Physical therapy, 19 (1), pp 48-55
+    </li>
+    <li>
+      Knudsen, B., Christensen, K., Baagøe, S., Ho ppe, P., Juhl, C., Buus, L., Jacobsen, T.L. 2011: "Lejringsbetinget skæve hoveder hos spædbørn kan forebygges." Ugeskrift for Læger vol. 173 no.9 pp 644-648.
+    </li>
+    <li>
+      Kennedy, E., Majnemer, A., Farmer, J.P., Barr, R.G.,, Platt, R.W. 2009. "Motor development of infants with positional plagiocephaly." Physical & Occupational Therapy in Pediatrics. vol. 29 (3) pp 222- 35
+    </li>
+    <li>
+      Öhman, A., Nilsson, S., Lagerkvist, A., Beckung, E. 2009. "Are infants with torticollis at risk of a delay in early motor milestones compared with control group of healthy infants?" Developmental medicine and child neurology: vol. 51, Is 7, pp 545-550.
+    </li>
+    <li>
+      van Vlimmeren, L. A. , van der Graaf, Y. , Boere-Boonekamp, M. M. , . L’Hoir, M. P., Helders, P. J. M., Engelbert, R. H. H. . 2007. "Risk Factors for Deformational Plagiocephaly at Birth and at 7 Weeks of Age: A Prospective Cohort Study." Pediatrics Vol. 119 No 2 pp 408-418.
+    </li>
+  </ul>
+
 @endcomponent
 @endsection

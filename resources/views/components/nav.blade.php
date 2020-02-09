@@ -1,5 +1,5 @@
 @if (Route::is('frontpage'))
-<nav class="navbar navbar-expand-md navbar-light fixed-top d-none d-lg-block">
+<nav class="navbar navbar-expand-md navbar-light navbar-laravel fixed-top d-none d-lg-block">
 @else
 <nav class="navbar navbar-expand-md navbar-light d-none d-lg-block">
 @endif
@@ -28,7 +28,7 @@
                   </a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="{{ route('children')}}">
-                    Børnekiropraktik
+                    Baby og børnekiropraktik
                   </a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="{{ route('physiotherapy')}}">
@@ -60,14 +60,23 @@
                   <a class="nav-link" href="{{ route('info') }}">Info</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="{{ route('blog') }}">Blog</a>
+                  <a class="nav-link" href="{{ route('prices') }}">Priser</a>
               </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{{ route('video') }}">Video</a>
+              </li>
+              {{-- <li class="nav-item">
+                  <a class="nav-link" href="{{ route('blog') }}">Nyheder</a>
+              </li> --}}
             </ul>
             <!-- Left Side Of Navbar -->
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->
                 @guest
+                  {{-- <li class="nav-item">
+                    Du finder os nemt på Tagtækkervej 8, lige ved Rosengårdscenterets blå indgang
+                  </li> --}}
 
                     <li class="nav-item">
                         <a class="">
