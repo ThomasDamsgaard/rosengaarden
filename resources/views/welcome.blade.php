@@ -63,10 +63,10 @@
       </div>
     </div>
   </div>
-  <div id="bg-image" class="background cover active" style="background-image: url({{ asset('img/background.jpg') }})"></div>
+  {{-- <div id="bg-image" class="background cover active" style="background-image: url({{ asset('img/background.jpg') }})"></div> --}}
   {{-- <div class="background cover" style="background-image: url({{ asset('img/bg2.jpg') }});"></div> --}}
   {{-- <div class="background cover" style="background-image: url({{ asset('img/bg3.jpg') }});"></div> --}}
-  <div class="background-overlay"></div>
+  {{-- <div class="background-overlay"></div> --}}
 </header>
 <div class="container" id="content">
   <div class="row mb-md-5 mb-3">
