@@ -58,11 +58,11 @@
                     @break;
                 @endswitch
                 <br>
-                <i class="fas fa-phone" style="color: #fff;"></i> 66 15 97 87
+                <i class="fas fa-phone" style="color: #fff;"></i> <p style="color: #fff;">66 15 97 87</p>
               </div>
               <div class="col-md-6">
-                <i class="fas fa-map-marked-alt" style="color: #fff;"></i> Tagtækkervej 8, 7.sal<br>
-                5230 Odense M
+                <i class="fas fa-map-marked-alt" style="color: #fff;"></i> <p style="color: #fff;">Tagtækkervej 8, 7.sal</p>
+                <p style="color: #fff;">5230 Odense M</p>
               </div>
             </div>
         </div>
