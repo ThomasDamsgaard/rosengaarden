@@ -11,17 +11,3 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-
-.frontpage-btn::after {
-  background: #F5F8FA;
-  content: '';
-  height: 100vh;
-  left: 50%;
-  position: absolute;
-  top: 100%;
-  width: 1.5px;
-}
-
-.frontpage-btn:hover:after {
-  background: rgb(0,0,0,0);
-}
