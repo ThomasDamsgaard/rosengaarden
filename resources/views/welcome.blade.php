@@ -71,7 +71,7 @@
       </div>
     </div>
   </div>
-  <div id="bg-image" class="background cover active" style="background-image: url({{ asset('img/background.jpg') }} no-repeat center center)";></div>
+  <div id="bg-image" class="background cover active" style="background-image: url({{ asset('img/bg.jpg') }} no-repeat center center)";></div>
   {{-- <div class="background cover" style="background-image: url({{ asset('img/bg2.jpg') }});"></div> --}}
   {{-- <div class="background cover" style="background-image: url({{ asset('img/bg3.jpg') }});"></div> --}}
   <div class="background-overlay"></div>
