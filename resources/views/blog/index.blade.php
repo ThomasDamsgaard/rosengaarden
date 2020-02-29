@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('pageTitle', 'Blog | Rosengårdens Kiropraktik')
+@section('pageTitle', 'Nyheder | Rosengårdens Kiropraktik')
 
 @section('css')
   <link rel="stylesheet" href="{{ asset('css/mediumish.css') }}">

@@ -11,7 +11,7 @@
         <li><a href="{{ route('contact') }}">Kontakt Information</a></li>
         <li><a href="{{ route('info') }}">Info</a></li>
         <li><a href="{{ route('video') }}">Video</a></li>
-        <li><a href="{{ route('blog') }}">Nyheder</a></li>
+        {{-- <li><a href="{{ route('blog') }}">Nyheder</a></li> --}}
       </ul>
     </nav>
   </div>

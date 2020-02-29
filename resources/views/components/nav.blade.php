@@ -65,9 +65,9 @@
               <li class="nav-item">
                   <a class="nav-link" href="{{ route('video') }}">Video</a>
               </li>
-              <li class="nav-item">
+              {{-- <li class="nav-item">
                   <a class="nav-link" href="{{ route('blog') }}">Nyheder</a>
-              </li>
+              </li> --}}
             </ul>
             <!-- Left Side Of Navbar -->
             <!-- Right Side Of Navbar -->

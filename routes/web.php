@@ -21,7 +21,7 @@ Route::get('/personale', 'Guest\GuestController@who')->name('who');
 Route::get('/information', 'Guest\GuestController@info')->name('info');
 Route::get('/priser', 'Guest\GuestController@prices')->name('prices');
 Route::get('/video', 'Guest\GuestController@video')->name('video');
-Route::get('/blog', 'Blog\BlogController@index')->name('blog');
+// Route::get('/blog', 'Blog\BlogController@index')->name('blog');
 
 //Auth routes
 Auth::routes();
@@ -30,7 +30,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 //Blog routes
-Route::get('blog/{slug}', 'Blog\BlogController@show')->name('blog.show');
+// Route::get('blog/{slug}', 'Blog\BlogController@show')->name('blog.show');
 // Route::get('/blog/create', 'Blog\BlogController@create')->middleware('auth');
 // Route::get('/blog/{slug?}', 'Blog\BlogController@show')->name('show');
 // Route::resource('blog', 'Blog\BlogController')
