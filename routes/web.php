@@ -30,8 +30,9 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 //Blog routes
-Route::get('/blog/create', 'Blog\BlogController@create')->middleware('auth');
-Route::get('/blog/{slug?}', 'Blog\BlogController@show')->name('show');
-Route::resource('blog', 'Blog\BlogController')
-  ->except(['index', 'show'])
-  ->middleware('auth');
+Route::get('blog/{slug}', 'Blog\BlogController@show')->name('blog.show');
+// Route::get('/blog/create', 'Blog\BlogController@create')->middleware('auth');
+// Route::get('/blog/{slug?}', 'Blog\BlogController@show')->name('show');
+// Route::resource('blog', 'Blog\BlogController')
+//   ->except(['index', 'show'])
+//   ->middleware('auth');

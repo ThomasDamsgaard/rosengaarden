@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Blog;
 use Purifier;
 use Carbon\Carbon;
+use Wink\WinkPost;
 
 class BlogController extends Controller
 {
@@ -17,9 +18,20 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $posts = Blog::orderBy('created_at', 'desc')->paginate(4);
+        // $posts = Blog::orderBy('created_at', 'desc')->paginate(4);
+        //
+        // return view('blog.index', compact('posts'));
 
-        return view('blog.index', compact('posts'));
+        $posts = WinkPost::with('tags')
+        ->live()
+        ->orderBy('publish_date', 'DESC')
+        ->simplePaginate(6);
+
+        // dd($posts);
+
+        return view('blog.index', [
+        'posts' => $posts
+    ]);
     }
 
     /**
@@ -54,9 +66,11 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Blog $slug)
+    public function show($slug)
     {
-        return view('blog.show', compact('slug'));
+        $post = WinkPost::where('slug', $slug)->first();
+
+        return view('blog.show', compact('post'));
     }
 
     /**
