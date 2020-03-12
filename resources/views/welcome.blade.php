@@ -110,11 +110,41 @@
     </div>
   </div>
 </div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Vigtig Patient Info</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+        Her på klinikken følger vi til enhver tid sundhedsstyrelsens anbefalinger og har allerede implementeret en række tiltag for at minimere smitterisikoen.
+        </p>
+        <p>
+          Vi henstiller til at du melder afbud hvis du er syg og så vidt muligt ankommer alene til din konsultation.
+        </p>
+        Du kan følge med i den aktuelle situation på dette <a href="https://politi.dk/corona">link</a>
+      </div>
+      {{-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Luk</button>
+      </div> --}}
+    </div>
+  </div>
+</div>
 @endsection
 
 @section('javascript')
 
   <script type="text/javascript">
+  $(document).ready(function() {
+    $('#staticBackdrop').modal('show');
+  });
+
   // (function() {
   //   'use strict'
   //   const cats = [
