@@ -123,10 +123,10 @@
       </div>
       <div class="modal-body">
         <p>
-        Her på klinikken følger vi til enhver tid sundhedsstyrelsens anbefalinger og har allerede implementeret en række tiltag for at minimere smitterisikoen.
+          Grundet udbrud af corona virus er klinikken åben med akutberedskab fra kl 10-12 i hverdagene.
         </p>
         <p>
-          Vi henstiller til at du melder afbud hvis du er syg og så vidt muligt ankommer alene til din konsultation.
+          Alle kiropraktorklinikker tager kun imod patienter med akut og kritisk behov for behandling ifølge krav fra Sundhedsstyrelsen frem til den 30. marts 2020.
         </p>
         Du kan følge med i den aktuelle situation på dette <a href="https://politi.dk/corona">link</a>
       </div>
