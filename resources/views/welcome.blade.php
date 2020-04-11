@@ -176,9 +176,13 @@
 @section('javascript')
 
   <script type="text/javascript">
-  $('.carousel').carousel({
-    interval: 5000
-  });
+    $('.carousel').carousel({
+      interval: 5000
+    });
+  </script>
+
+  <script type="text/javascript">
+
 
   $(document).ready(function() {
     $('#staticBackdrop').modal('show');
