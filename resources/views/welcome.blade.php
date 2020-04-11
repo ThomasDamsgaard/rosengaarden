@@ -123,10 +123,10 @@
       </div>
       <div class="modal-body">
         <p>
-          Grundet udbrud af corona virus er klinikken åben med akutberedskab fra kl 10-12 i hverdagene.
+          Grundet udbrud af corona virus er klinikken åben fra kl 8-14.30 i hverdagene.
         </p>
         <p>
-          Alle kiropraktorklinikker tager kun imod patienter med akut og kritisk behov for behandling ifølge krav fra Sundhedsstyrelsen frem til den 13. april 2020.
+          Alle kiropraktorklinikker tager imod patienter med behandlingskrævende tilstande så som akutte smertetilstande med betydeligt påvirket funktionsevne, herunder f.eks. rygsmerter ifølge retningslinjerne fra 1-4-20 fra Sundhedsstyrelsen gældende til og med juni 2020.
         </p>
         Du kan følge med i den aktuelle situation på dette <a href="https://politi.dk/corona">link</a>
       </div>
