@@ -8,14 +8,50 @@
   @if (Route::is('frontpage'))
     <style>
     .button_container span {
-      background: #fff;
+      /* background: #fff; */
       }
     </style>
   @endif
 @endsection
 
 @section('content')
-<header class="masthead">
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active" style="background-image: url('{{ asset('img/bg-1.jpg') }}')">
+
+        @include('components.frontpage-text')
+
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('{{ asset('img/bg-2.jpg') }}')">
+
+          @include('components.frontpage-text')
+
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('{{ asset('img/bg-3.jpg') }}')">
+
+          @include('components.frontpage-text')
+
+        </div>
+
+        <div class="carousel-item" style="background-image: url('{{ asset('img/bg-4.jpg') }}')">
+
+          @include('components.frontpage-text')
+
+        </div>
+
+        <div class="carousel-item" style="background-image: url('{{ asset('img/bg-5.jpg') }}')">
+
+          @include('components.frontpage-text')
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+{{-- <header class="masthead" style="background-image: url('https://rosengaardenkiropraktik.dk/img/bg-1.jpg');">
   <div class="container h-100">
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center" style="z-index: 300;">
@@ -26,12 +62,12 @@
           <h1 style="color: #fff;">Kiropraktik</h1>
           <p style="color: #fff;">Du finder os nemt på Tagtækkervej 8, lige ved Rosengårdcenterets blå indgang.</p>
 
-        </div>
+        </div> --}}
 
-        {{-- <p class="lead mb-5">Velkommen hos kiropraktorerne ved Rosengårdcentret</p> --}}
+        {{-- <p class="lead mb-5">Velkommen hos kiropraktorerne ved Rosengårdcentret</p>
         {{-- <a href="#content" class=" frontpage-btn btn btn-light" role="button"><i style="color: black;" class="fas fa-arrow-circle-down fa-lg"></i></a> --}}
 
-        <div class="col-12">
+        {{-- <div class="col-12">
             <div class="row d-md-none">
               <div class="col-md-6 mb-3 mb-md-0">
                 @switch(Carbon\Carbon::now()->dayOfWeek)
@@ -71,11 +107,10 @@
       </div>
     </div>
   </div>
-  <div id="bg-image" class="background cover active" style="background-image: url({{ asset('img/bg.jpg') }} no-repeat center center)";></div>
-  {{-- <div class="background cover" style="background-image: url({{ asset('img/bg2.jpg') }});"></div> --}}
-  {{-- <div class="background cover" style="background-image: url({{ asset('img/bg3.jpg') }});"></div> --}}
+  <div id="bg-image" class="background cover active fade" style="background-image: url({{ asset('img/bg-1.jpg') }} no-repeat center center)";></div>
   <div class="background-overlay"></div>
-</header>
+</header> --}}
+
 <div class="container" id="content">
   <div class="row mb-md-5 mb-3">
 
@@ -141,31 +176,39 @@
 @section('javascript')
 
   <script type="text/javascript">
+  $('.carousel').carousel({
+    interval: 5000
+  });
+
   $(document).ready(function() {
     $('#staticBackdrop').modal('show');
   });
 
   // (function() {
   //   'use strict'
-  //   const cats = [
-  //     "https://www.petfinder.com/wp-content/uploads/2013/09/cat-black-superstitious-fcs-cat-myths-162286659.jpg",
-  //     "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_March_2010-1.jpg"
-  //   ]
+  //
+  //   const pictures = [
+  //     "{{ asset('img/bg-2.jpg') }}",
+  //     "{{ asset('img/bg-3.jpg') }}",
+  //     "{{ asset('img/bg-4.jpg') }}",
+  //     "{{ asset('img/bg-5.jpg') }}",
+  //     "{{ asset('img/bg-1.jpg') }}"
+  //   ];
   //
   //   const node = document.getElementById("bg-image");
   //
   //   const cycleImages = (images, container, step) => {
   //       images.forEach((image, index) => (
   //       setTimeout(() => {
+  //         console.log(image);
   //         console.log(container);
-  //
   //           container.style.backgroundImage = `url(${image})`
   //       }, step * (index + 1))
   //     ))
   //     setTimeout(() => cycleImages(images, container, step), step * images.length)
   //   }
-
-    // cycleImages(cats, node, 5000);
+  //
+  //   cycleImages(pictures, node, 5000);
 
     // window.onscroll = function() {
     //   const navbar = document.querySelector('.fixed-top');
