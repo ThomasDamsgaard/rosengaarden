@@ -12,6 +12,11 @@ class GuestController extends Controller
         return view('welcome');
     }
 
+    public function covid()
+    {
+        return view('guest.covid');
+    }
+
     public function symptoms()
     {
         return view('guest.chiropractor.symptoms_and_treatment');
