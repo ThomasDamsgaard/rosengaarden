@@ -12,9 +12,9 @@ class GuestController extends Controller
         return view('welcome');
     }
 
-    public function covid()
+    public function mål()
     {
-        return view('guest.covid');
+        return view('guest.mål');
     }
 
     public function symptoms()

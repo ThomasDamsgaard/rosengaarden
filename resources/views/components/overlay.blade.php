@@ -4,7 +4,7 @@
     <nav class="overlay-menu">
       <ul class="overlay-list">
         <li><a href="{{ route('frontpage') }}">Forside</a></li>
-        <li><a href="{{ route('covid') }}">COVID19</a></li>
+        <li><a href="{{ route('mål') }}">Mål</a></li>
         <li><a href="{{ route('symptoms') }}">Kiropraktik</a></li>
         <li><a href="{{ route('children') }}">Børnekiropraktik</a></li>
         <li><a href="{{ route('physiotherapy') }}">Fysioterapi Og Massage</a></li>

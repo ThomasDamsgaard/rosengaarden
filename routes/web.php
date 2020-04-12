@@ -13,7 +13,7 @@
 
 //Guest routes
 Route::get('/', 'Guest\GuestController@frontpage')->name('frontpage');
-Route::get('/covid', 'Guest\GuestController@covid')->name('covid');
+Route::get('/mål', 'Guest\GuestController@mål')->name('mål');
 Route::get('/symptomer-og-behandling', 'Guest\GuestController@symptoms')->name('symptoms');
 Route::get('/boernekiropraktik', 'Guest\GuestController@children')->name('children');
 Route::get('/fysioterapi-og-massage', 'Guest\GuestController@physiotherapy')->name('physiotherapy');
