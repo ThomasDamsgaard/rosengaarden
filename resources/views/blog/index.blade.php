@@ -11,7 +11,7 @@
   <div class="mainheading">
 		<h1 class="sitetitle mt-6 mt-lg-3">Nyheder</h1>
 		<p class="lead">
-			 Bootstrap theme, medium style, simply perfect for bloggers
+			 Artikler om undersøgelser, behandlinger og generelle tips.
 		</p>
 	</div>
   <section class="featured-posts">
