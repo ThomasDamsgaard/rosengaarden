@@ -41,7 +41,7 @@
               <div class="row align-items-center">
                 <div class="col-2" data-toggle="modal" data-target="#journal" style="cursor: pointer;">
                   <div class="icon">
-                    <i class="fas fa-file-medical"></i>
+                    <i class="fas fa-id-card-alt"></i>
                   </div>
                 </div>
                 <div class="col-10" data-toggle="modal" data-target="#journal" style="cursor: pointer;">
@@ -91,6 +91,46 @@
                 <div class="col-10">
                   <p>
                     Se gebyrsats for udeblivelser.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row align-items-center">
+                <div class="col-2" data-toggle="modal" data-target="#prescription" style="cursor: pointer;">
+                  <div class="icon">
+                    <i class="fas fa-file-medical"></i>
+                  </div>
+                </div>
+                <div class="col-10" data-toggle="modal" data-target="#prescription" style="cursor: pointer;">
+                  <h6><b>Henvisning</b></h6>
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-2"></div>
+                <div class="col-10">
+                  <p>Du behøver ingen henvisning fra din egen læge</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row align-items-center">
+                <div class="col-2" data-toggle="modal" data-target="#guard" style="cursor: pointer;">
+                  <div class="icon">
+                    <i class="fas fa-first-aid"></i>
+                  </div>
+                </div>
+                <div class="col-10" data-toggle="modal" data-target="#guard" style="cursor: pointer;">
+                  <h6><b>Kiropraktorvagt</b></h6>
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-2"></div>
+                <div class="col-10">
+                  <p>
+                    Behandling i weekender og helligdage.
                   </p>
                 </div>
               </div>
@@ -181,6 +221,29 @@
     Se gældende priser på Dansk Kiropraktor Forenings hjemmeside, følg <a href="https://www.danskkiropraktorforening.dk/behandling/priser-og-tilskud/">linket</a><br>
     OBS: Inde på denne side hos DKF skal du klikke på linket der hedder:<br>
     Nøjagtige priser for pakkeforløb pr. "dato"
+  </p>
+@endcomponent
+
+@component('components.modal')
+  @slot('id')
+    prescription
+  @endslot
+  @slot('title')
+    Henvisning
+  @endslot
+  <p>Du behøver ingen henvisning fra din egen læge ved kiropraktorbesøg, vi har overenskomst med sygesikringen og der ydes tilskud fra Sygeforsikringen Danmark.</p>
+@endcomponent
+
+@component('components.modal')
+  @slot('id')
+    guard
+  @endslot
+  @slot('title')
+    Kiropraktorvagt
+  @endslot
+  <p>
+    I weekender og helligdage er der mulighed for at kontakte vagthavende kiropraktor i Region Syd for behandling.<br>
+    Mere info på regionens <a href="https://www.regionsyddanmark.dk/wm362773">hjemmeside</a>.
   </p>
 @endcomponent
 
