@@ -61,7 +61,7 @@
           <!-- Team Member 3 -->
 
           <!-- Team Member 4 -->
-          @component('components.card')
+          {{-- @component('components.card')
             @slot('id')
               4
             @endslot
@@ -74,7 +74,7 @@
             @slot('profession')
               Kiropraktor
             @endslot
-          @endcomponent
+          @endcomponent --}}
           <!-- Team Member 4 -->
 
 
@@ -114,7 +114,7 @@
           <!-- Team Member 7 -->
 
           <!-- Team Member 7 -->
-          @component('components.card')
+          {{-- @component('components.card')
             @slot('id')
               7
             @endslot
@@ -127,11 +127,11 @@
             @slot('profession')
               Sekretær
             @endslot
-          @endcomponent
+          @endcomponent --}}
           <!-- Team Member 7 -->
 
           <!-- Team Member 8 -->
-          @component('components.card')
+          {{-- @component('components.card')
             @slot('id')
               8
             @endslot
@@ -144,11 +144,11 @@
             @slot('profession')
               Sekretær
             @endslot
-          @endcomponent
+          @endcomponent --}}
           <!-- Team Member 8 -->
 
           <!-- Team Member 9 -->
-          @component('components.card')
+          {{-- @component('components.card')
             @slot('id')
               9
             @endslot
@@ -161,11 +161,11 @@
             @slot('profession')
               Studentermedhjælper
             @endslot
-          @endcomponent
+          @endcomponent --}}
           <!-- Team Member 9 -->
 
           <!-- Team Member 5 -->
-          @component('components.card')
+          {{-- @component('components.card')
             @slot('id')
               5
             @endslot
@@ -178,7 +178,7 @@
             @slot('profession')
               Fysioterapeut
             @endslot
-          @endcomponent
+          @endcomponent --}}
           <!-- Team Member 5 -->
         </div>
 
