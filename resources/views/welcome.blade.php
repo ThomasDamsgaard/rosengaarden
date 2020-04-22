@@ -217,25 +217,21 @@
       </div>
       <div class="modal-body">
         <li>
-          Vi er på arbejde, men vi tager smittefaren alvorligt og passer på hinanden og vores patienter. Grundet udbrud af corona virus er klinikken åben fra kl 8-14.30 i hverdagene.
+          Vi er på arbejde, men vi tager smittefaren alvorligt og passer på hinanden og vores patienter. Grundet udbrud af corona virus er klinikken åben fra kl 8-15 i hverdagene.
         </li>
         <li>
-          Alle kiropraktorklinikker tager imod patienter med behandlingskrævende tilstande så som akutte smertetilstande med betydeligt påvirket funktionsevne, herunder f.eks. rygsmerter ifølge retningslinjerne fra 1-4-20 fra Sundhedsstyrelsen gældende til og med juni 2020.
+          Alle kiropraktorklinikker tager imod patienter med behandlingskrævende tilstande så som akutte smertetilstande med påvirket funktionsevne, herunder f.eks. rygsmerter ifølge retningslinjerne fra 20-4-20 fra Sundhedsstyrelsen gældende til og med juni 2020.
         </li>
         <li>
           På klinikken er der høj hygiejne-standard, vi holder afstand så vidt muligt, og byder jer velkommen med et smil frem for håndtryk.
         </li>
         <li>
-          Vi arbejder i hold, så der er 1 kiropraktor og 1 sekretær på arbejde ad gangen. Det betyder også, at den kiropraktor du plejer at blive behandlet af ikke er på arbejde hver dag.
-        </li>
-        <li>
-          Vi forsøger at undgå ventetid, så der er højst 2 eller 3 patienter på klinikken ad gangen.
-        </li>
-        <li>
-          Vi beder jer ikke komme i for god tid, evt. vente i bilen eller forhallen.
-        </li>
-        <li>
-          Vi beder om, at der kun er 1 forældre til vores børnepatienter.
+          Vi forsøger at holde antallet af personer i klinikken nede, Derfor beder vi jer om;
+          <ul>
+            <li>- Ikke at komme i for god tid, evt. vente i bilen eller forhallen.</li>
+            <li>- At der kun er 1 forældre til vores børnepatienter.</li>
+            <li>- At en evt. chauffør ikke sidder i venteværelset, men i stedet går en tur, eller venter i bilen.</li>
+          </ul>
         </li>
         <li>
           Der er håndsprit ved elevatoren i receptionen og på vores toiletter.
@@ -247,7 +243,7 @@
           De små ting til børnene er også gemt væk.
         </li>
         <li>
-          Vores massør og fysioterapeut må desværre endnu ikke modtage patienter.
+          Vores massør og fysioterapeut kan desværre endnu ikke modtage patienter.
         </li>
         <li>
           Husk hvis du er syg, eller har symptomer på COVID-19 skal du ikke komme, men du er altid velkommen til at ringe, så vi kan hjælpe så godt som muligt
