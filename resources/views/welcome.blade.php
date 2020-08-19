@@ -220,7 +220,7 @@
           Vi er på arbejde, men vi tager smittefaren alvorligt og passer på hinanden og vores patienter.
         </li>
         <li>
-          Alle kiropraktorklinikker følger retningslinjerne fra 20-04-20 fra Sundhedsstyrelsen gældende til og med juni 2020.
+          Alle kiropraktorklinikker følger retningslinjerne fra Sundhedsstyrelsen.
         </li>
         <li>
           På klinikken er der høj hygiejne-standard, vi holder afstand så vidt muligt, og byder jer velkommen med et smil frem for håndtryk.
@@ -241,9 +241,6 @@
         </li>
         <li>
           De små ting til børnene er også gemt væk.
-        </li>
-        <li>
-          Vores fysioterapeut kan desværre endnu ikke modtage patienter.
         </li>
         <li>
           Husk hvis du er syg, eller har symptomer på COVID-19 skal du ikke komme, men du er altid velkommen til at ringe, så vi kan hjælpe så godt som muligt
@@ -269,57 +266,9 @@
   </script>
 
   <script type="text/javascript">
-
-
-  $(document).ready(function() {
-    $('#staticBackdrop').modal('show');
-  });
-
-  // (function() {
-  //   'use strict'
-  //
-  //   const pictures = [
-  //     "{{ asset('img/bg-2.jpg') }}",
-  //     "{{ asset('img/bg-3.jpg') }}",
-  //     "{{ asset('img/bg-4.jpg') }}",
-  //     "{{ asset('img/bg-5.jpg') }}",
-  //     "{{ asset('img/bg-1.jpg') }}"
-  //   ];
-  //
-  //   const node = document.getElementById("bg-image");
-  //
-  //   const cycleImages = (images, container, step) => {
-  //       images.forEach((image, index) => (
-  //       setTimeout(() => {
-  //         console.log(image);
-  //         console.log(container);
-  //           container.style.backgroundImage = `url(${image})`
-  //       }, step * (index + 1))
-  //     ))
-  //     setTimeout(() => cycleImages(images, container, step), step * images.length)
-  //   }
-  //
-  //   cycleImages(pictures, node, 5000);
-
-    // window.onscroll = function() {
-    //   const navbar = document.querySelector('.fixed-top');
-    //   // const footer = document.querySelector('.fixed-bottom');
-    //   if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
-    //     navbar.classList.add('scrolled');
-    //     // footer.classList.add('scrolled')
-    //   } else {
-    //     navbar.classList.remove('scrolled');
-    //     // footer.classList.remove('scrolled');
-    //   }
-    // }
-
-    // const mobileNav = document.querySelector('.button_container');
-    // const overlay = document.querySelector('#overlay');
-    // mobileNav.addEventListener('click', function(e) {
-    //   mobileNav.classList.toggle('active');
-    //   overlay.classList.toggle('open');
-    // });
-  // })();
+    $(document).ready(function() {
+      $('#staticBackdrop').modal('show');
+    });
   </script>
 
 @endsection

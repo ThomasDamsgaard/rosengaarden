@@ -35,7 +35,7 @@
                   </a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="{{ route('physiotherapy')}}">
-                    Fysioterapi og massage
+                    Massage
                   </a>
                 </div>
               </li>

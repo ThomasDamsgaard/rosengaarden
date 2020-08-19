@@ -7,7 +7,7 @@
         <li><a href="{{ route('mål') }}">Mål</a></li>
         <li><a href="{{ route('symptoms') }}">Kiropraktik</a></li>
         <li><a href="{{ route('children') }}">Børnekiropraktik</a></li>
-        <li><a href="{{ route('physiotherapy') }}">Fysioterapi Og Massage</a></li>
+        <li><a href="{{ route('physiotherapy') }}">Massage</a></li>
         <li><a href="{{ route('who') }}">Personale</a></li>
         <li><a href="{{ route('contact') }}">Kontakt Information</a></li>
         <li><a href="{{ route('info') }}">Info</a></li>
