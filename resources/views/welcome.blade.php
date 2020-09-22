@@ -217,6 +217,9 @@
       </div>
       <div class="modal-body">
         <li>
+          <u>Vigtigt!</u> Sundhedsstyrelsen anbefaler brug af ansigtsværnemidler i situationer, hvor det ikke er muligt at holde minimum 1 meters afstand. <u>Vi beder derfor om at bære mundbind på klinikken</u>, behandlerne vil naturligvis gøre det samme.
+        </li>
+        <li>
           Vi er på arbejde, men vi tager smittefaren alvorligt og passer på hinanden og vores patienter.
         </li>
         <li>
