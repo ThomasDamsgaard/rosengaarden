@@ -217,8 +217,9 @@
       </div>
       <div class="modal-body">
         <li>
-          <u>Vigtigt!</u> Sundhedsstyrelsens nye krav om at bære mundbind i offentligt tilgængeligt rum træder i kraft fra den 29/10-20. <u>Vi beder derfor om at bære mundbind på klinikken</u>, behandlerne vil naturligvis gøre det samme.
+          <u>Vigtigt! - Vi er på arbejde!</u> Sundhedsstyrelsens nye anbefalinger gældende fra 17/12-20 lukker ikke sundhedsydelser, herunder kiropraktisk behandling. Vi passer ekstra på hinanden og vil i den forbindelse bede vores patienter om at ankomme til klinikken maks 5 minutter før konsultationen.
         </li>
+        <li>Fortsat krav om at bære mundbind i offentligt tilgængeligt rum trådte i kraft den 29/10-20. <u>Vi beder derfor om at bære mundbind på klinikken</u>, behandlerne vil naturligvis gøre det samme.</li>
         <li>
           Vi er på arbejde, men vi tager smittefaren alvorligt og passer på hinanden og vores patienter.
         </li>
