@@ -56,4 +56,9 @@ class GuestController extends Controller
     {
         return view('guest.prices');
     }
+
+    public function questionnaries()
+    {
+        return view('guest.questionnaries');
+    }
 }

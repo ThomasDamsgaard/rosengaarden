@@ -22,6 +22,7 @@ Route::get('/personale', 'Guest\GuestController@who')->name('who');
 Route::get('/information', 'Guest\GuestController@info')->name('info');
 Route::get('/priser', 'Guest\GuestController@prices')->name('prices');
 Route::get('/video', 'Guest\GuestController@video')->name('video');
+Route::get('/spørgeskemaer', 'Guest\GuestController@questionnaries')->name('questionnaries');
 // Route::get('/nyheder', 'Blog\BlogController@index')->name('blog');
 
 //Auth routes

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('pageTitle', 'Priser | Rosengårdens Kiropraktik')
+@section('pageTitle', 'Mål | Rosengårdens Kiropraktik')
 
 @section('content')
   <div class="container">

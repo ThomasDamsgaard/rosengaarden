@@ -37,22 +37,12 @@
                   <a class="dropdown-item" href="{{ route('physiotherapy')}}">
                     Massage
                   </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="{{ route('questionnaries')}}">
+                    Spørgeskemaer
+                  </a>
                 </div>
               </li>
-              {{-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="contact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Kontakt
-                </a>
-                <div class="dropdown-menu animate slideIn" aria-labelledby="contact">
-                  <a class="dropdown-item" href="{{ route('contact') }}">
-                    Kontaktinformation
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="{{ route('who') }}">
-                    Personale
-                  </a>
-                </div>
-              </li> --}}
               <li class="nav-item">
                   <a class="nav-link" href="{{ route('who') }}">Personale</a>
               </li>
@@ -68,9 +58,6 @@
               <li class="nav-item">
                   <a class="nav-link" href="{{ route('video') }}">Video</a>
               </li>
-              {{-- <li class="nav-item">
-                  <a class="nav-link" href="{{ route('blog') }}">Nyheder</a>
-              </li> --}}
             </ul>
             <!-- Left Side Of Navbar -->
             <!-- Right Side Of Navbar -->
