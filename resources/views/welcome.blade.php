@@ -138,7 +138,7 @@
                   <p style="color: #000;">Telefontid imorgen fra kl 8.00</p>
                   @break;
                 @case(1)
-                  <p style="color: #000;">Telefontid kl 8.00 - 18.00</p>
+                  <p style="color: #000;">Telefontid kl 8.00 - 17.30</p>
                   @break;
                 @case(2)
                   <p style="color: #000;">Telefontid kl 7.30 - 18.00</p>

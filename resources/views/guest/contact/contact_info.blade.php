@@ -37,9 +37,9 @@
             <div class="col-lg-6 text-center">
               <h6><b>Åbnings/Telefontider:</b></h6>
               <p style="margin-bottom: 0px">
-                Mandag 8.00 - 18.00</br>
+                Mandag 8.00 - 17.30</br>
                 Tirsdag 7.30 - 18.00</br>
-                Onsdag 7.30 - 17.00</br>
+                Onsdag 7.30 - 17.30</br>
                 Torsdag 8.00 - 18.00</br>
                 Fredag 7.30 - 15.00
               </p>
