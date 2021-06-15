@@ -216,42 +216,20 @@
         </button>
       </div>
       <div class="modal-body">
-        <li>
-          <u>Vigtigt! - Vi er på arbejde!</u> Sundhedsstyrelsens nye anbefalinger gældende fra 17/12-20 lukker ikke sundhedsydelser, herunder kiropraktisk behandling. Vi passer ekstra på hinanden og vil i den forbindelse bede vores patienter om at ankomme til klinikken maks 5 minutter før konsultationen.
-        </li>
-        <li>Fortsat krav om at bære mundbind i offentligt tilgængeligt rum trådte i kraft den 29/10-20. <u>Vi beder derfor om at bære mundbind på klinikken</u>, behandlerne vil naturligvis gøre det samme.</li>
-        <li>
-          Vi er på arbejde, men vi tager smittefaren alvorligt og passer på hinanden og vores patienter.
-        </li>
-        <li>
-          Alle kiropraktorklinikker følger retningslinjerne fra Sundhedsstyrelsen.
-        </li>
-        <li>
-          På klinikken er der høj hygiejne-standard, vi holder afstand så vidt muligt, og byder jer velkommen med et smil frem for håndtryk.
-        </li>
-        <li>
+        <p>
+          Klinikken følger de til enhver tid gældende retningslinjer fra sundhedsstyrelsen. Vi holder afstand så vidt muligt, og byder jer velkommen med et smil frem for håndtryk.
+        </p>
+        <p>
           Vi forsøger at holde antallet af personer i klinikken nede, Derfor beder vi jer om;
+        </p>
           <ul>
             <li>- Ikke at komme i for god tid, evt. vente i bilen eller forhallen.</li>
             <li>- At der kun er 1 forældre til vores børnepatienter.</li>
             <li>- At en evt. chauffør ikke sidder i venteværelset, men i stedet går en tur, eller venter i bilen.</li>
           </ul>
-        </li>
-        <li>
-          Der er håndsprit ved elevatoren i receptionen og på vores toiletter.
-        </li>
-        <li>
-          Vi har fjernet blade, bøger og desværre også alt vores legetøj.
-        </li>
-        <li>
-          De små ting til børnene er også gemt væk.
-        </li>
-        <li>
+        <p>
           Husk hvis du er syg, eller har symptomer på COVID-19 skal du ikke komme, men du er altid velkommen til at ringe, så vi kan hjælpe så godt som muligt
-        </li>
-        <li>
-          Du kan følge med i den aktuelle situation på dette <a href="https://politi.dk/corona">link</a>
-        </li>
+        </p>
       </div>
       {{-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Luk</button>
