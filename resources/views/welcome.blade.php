@@ -220,12 +220,11 @@
           Klinikken følger de til enhver tid gældende retningslinjer fra sundhedsstyrelsen. Vi holder afstand så vidt muligt, og byder jer velkommen med et smil frem for håndtryk.
         </p>
         <p>
-          Vi forsøger at holde antallet af personer i klinikken nede, Derfor beder vi jer om;
+          Vi forsøger at holde antallet af personer i klinikken nede, Derfor beder vi jer om:
         </p>
           <ul>
-            <li>- Ikke at komme i for god tid, evt. vente i bilen eller forhallen.</li>
-            <li>- At der kun er 1 forældre til vores børnepatienter.</li>
-            <li>- At en evt. chauffør ikke sidder i venteværelset, men i stedet går en tur, eller venter i bilen.</li>
+            <li>- Ikke at komme i for god tid.</li>
+            <li>- At en evt. chauffør ikke sidder i venteværelset.</li>
           </ul>
         <p>
           Husk hvis du er syg, eller har symptomer på COVID-19 skal du ikke komme, men du er altid velkommen til at ringe, så vi kan hjælpe så godt som muligt
