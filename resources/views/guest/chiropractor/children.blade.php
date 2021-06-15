@@ -39,7 +39,7 @@
                   </div>
                 </div>
                 <div class="col-10" data-toggle="modal" data-target="#colic" style="cursor: pointer;">
-                  <h6><b>Spædbarnskolik</b></h6>
+                  <h6><b>Kolik</b></h6>
                 </div>
               </div>
             </div>
@@ -136,7 +136,7 @@
     colic
   @endslot
   @slot('title')
-    Spædbarnskolik
+    Kolik
   @endslot
   <p>
     Kolik anvendes når et barn græder utrøsteligt i flere timer i døgnet. Oftest hen på eftermiddagen og om aftenen. Barnet virker anspændt og trækker ofte benene op mod maven og knytter hænderne, eller retter sig stift ud.
@@ -159,6 +159,49 @@
   <p>
     Behandling af spædbørn er designet specielt til dem, og udføres med lette tryk.
   </p>
+  <hr>
+  <p>
+    Kolikprojektet er endelig afsluttet og offentliggjort. 
+  </p>
+  <p>
+    Vi var en af fire klinikker som deltog i projektet, vi vil derfor gerne sende en stor tak til de forældre og spædbørn som deltog.
+  </p>
+  <p>
+    Kiropraktor Grethe Thøstesen
+  </p>
+  <p>
+    Her kan du læse pressemeddelelsen:
+  </p>
+  <h1>Ny forskning: Spædbørn græder mindre efter kiropraktisk behandling</h1>
+  <p>12.5.2021 11:57:32 CEST | <a href="https://via.ritzau.dk/nyhedsrum/dansk-kiropraktor-forening?publisherId=13559992">Dansk Kiropraktor Forening</a></p>
+  <h5>Stort forskningsprojekt på Syddansk Universitet viser, at spædbørn der lider af kolik får reduceret deres gråd, når de modtager kiropraktisk behandling. Børn der græder meget, får den største effekt.</h5>
+  <p>
+    Spædbørnskolik er et stort problem for de familier der oplever det. Det nyfødte barn græder i timevis dagligt og kan ikke finde hvile. Hidtil har lægens råd til forældrene været at trøste barnet bedst muligt, og vente til det går over. Men mange forældre hverken kan eller vil ikke bare vente. Derfor har en forskningsgruppe på Syddansk Universitet (SDU) sat sig for at undersøge effekten af kiropraktisk behandling af ’kolik-børn’.
+  </p>
+  <p>
+    - Studiet har vist at spædbørn der lider af kolik i gennemsnit får reduceret deres gråd med ca en halv time mere om dagen, når de modtager kiropraktisk behandling, end hvis de ikke gør. Det er ikke statistisk signifikant, men kigger man mere detaljeret på resultaterne, står det klart, at det især er de børn, der græder meget, der har mest gavn af behandlingen. Børn der græder 9 timer om dagen, får omtrent halveret deres grådtimer, mens de børn der græder mindst oplever en lavere effekt, siger Lise Hestbæk, Professor på SDU.
+  </p>
+  <h5>Ingen bivirkninger</h5>
+<p>
+  Det er uklart, hvad der afstedkommer kolik - både mave-tarmproblemer og muskel-ledsmerter er mistænkt. Det er bestemt heller ikke umuligt, at det vi kalder kolik kan udløses af forskellige faktorer og således være flere forskellige lidelser. Blandt andet derfor findes der heller ikke én løsning.
+</p>
+<p>
+  - Det er positivt, at vi ser, at der er en god effekt af behandlingen for de børn, der har det værst. Behandlingen har endvidere vist sig at være bivirkningsfri for alle de involverede børn, hvilke bør kunne berolige mange. Men resultatet viser også, at der stadig er meget vi ikke ved om kolik og hvilken behandling, der virker på hvilke børn, siger Lise Hestbæk.
+</p>
+<h5>Om studiet</h5>
+<p>
+  Næsten 200 spædbørn i alderen 2-14 uger har deltaget i studiet. De græder eller ’beklager sig’ i mindst 3 timer om dagen, 3 dage om ugen og har gjort det i mindst 2 uger – men er derudover vurderet sunde og raske. Altså børn som af uforklarlige årsager ikke har det godt – det vi kalder kolik.
+</p>
+<p>
+  Forskningsprojektet er afviklet således at forældrene har modtaget information og rådgivning. Herefter har forældrene forladt kiropraktorens konsultation og halvdelen af børnene er blevet behandlet, mens den anden halvdel ikke er blevet behandlet. Efterfølgende har forældrene rapporteret på barnets reaktion – uden at vide om deres barn er blevet behandlet eller ej.
+</p>
+<p>
+  Der er ikke indberettet bivirkninger for de behandlede børn.
+</p>
+<p>Her kan du læse artiklerne:</p>
+<a href="/pdf/Identifying_potential_treatment_effect.pdf" download>Kolik - Effekt modifikation</a><br>
+<a href="/pdf/The_effect_of_chiropractic_care_on_infantile_colic.pdf" download>Holm et. al. - 2021</a>
+
 @endcomponent
 
 @component('components.modal')
