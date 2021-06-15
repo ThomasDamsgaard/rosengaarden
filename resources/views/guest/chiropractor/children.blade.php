@@ -283,6 +283,17 @@
   <p>
     Betegnelsen er kendt af en del børeneergo- og fysioterapeuter, samt sundhedsplejersker, men er ikke en anerkendt diagnose i Danmark.
   </p>
+  <h4>KISS I</h4>
+  <p>
+    Er en asymmetri hvor barnet favoriserer, at se til den ene side og samtidig laver det en stor C kurve med kroppen, både når det sidder og ligger. Ofte har det, foruden det skæve baghoved og C kurven af kroppen, problemer med at ligge på maven, problemer med at falde til ro og problemer med at finde ro til at amme.
+  </p>
+  <h4>KISS II</h4>
+  <p>
+    Her favoriserer barnet ofte at bøje nakken bagover, det kan ofte sagtens ligge på maven, men kan ikke ligge i arm, og vil have svært ved at kigge på mor når det ammer, det vrider sig bagover, og har som KISS I ofte uro, og kan være både overspændt og underspændt i kroppen.
+  </p>
+  <p>
+    Hos os bliver barnet grundigt undersøgt, og hvis vi finder en funktionsforstyrrelse af nakken, kan vi hjælpe. Barnet bliver behandlet med teknikker, som er specielt designet til babyer, med lette tryk.
+  </p>
 @endcomponent
 
 @component('components.modal')
@@ -311,17 +322,7 @@
   <p>
     KIDD syndrom er som KISS syndrom en betegnelse som fortrinsvis bruges i Tyskland og Norge.
   </p>
-  <h4>KISS I</h4>
-  <p>
-    Er en asymmetri hvor barnet favoriserer, at se til den ene side og samtidig laver det en stor C kurve med kroppen, både når det sidder og ligger. Ofte har det, foruden det skæve baghoved og C kurven af kroppen, problemer med at ligge på maven, problemer med at falde til ro og problemer med at finde ro til at amme.
-  </p>
-  <h4>KISS II</h4>
-  <p>
-    Her favoriserer barnet ofte at bøje nakken bagover, det kan ofte sagtens ligge på maven, men kan ikke ligge i arm, og vil have svært ved at kigge på mor når det ammer, det vrider sig bagover, og har som KISS I ofte uro, og kan være både overspændt og underspændt i kroppen.
-  </p>
-  <p>
-    Hos os bliver barnet grundigt undersøgt, og hvis vi finder en funktionsforstyrrelse af nakken, kan vi hjælpe. Barnet bliver behandlet med teknikker, som er specielt designet til babyer, med lette tryk.
-  </p>
+  
 @endcomponent
 
 @component('components.modal')
