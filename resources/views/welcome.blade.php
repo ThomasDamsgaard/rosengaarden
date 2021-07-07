@@ -216,6 +216,7 @@
         </button>
       </div>
       <div class="modal-body">
+        <p> Obs! Pga ferie kan åbnings- og telefontider være ændrede i juli måned</p>
         <p>
           Klinikken følger de til enhver tid gældende retningslinjer fra sundhedsstyrelsen. Vi holder afstand så vidt muligt, og byder jer velkommen med et smil frem for håndtryk.
         </p>
